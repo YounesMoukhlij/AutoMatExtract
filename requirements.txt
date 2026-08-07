@@ -1,0 +1,11 @@
+PyMuPDF>=1.28
+pdfplumber>=0.11
+pytesseract>=0.3.13
+pandas>=2.2
+openpyxl>=3.1
+spacy>=3.8
+pymatgen>=2024.1
+opencv-python-headless>=4.9
+Pillow
+numpy
+pint>=0.23
