@@ -3,7 +3,8 @@
 import concurrent.futures
 import logging
 import os
-from typing import Optional, Set
+import threading
+from typing import Callable, Optional, Set
 
 import pandas as pd
 
@@ -12,7 +13,6 @@ from extractor import ExtractorEngine
 from models import ExtractedField, PaperData
 from parser import DocumentParser
 from ranking import Ranker
-
 
 class NaLiXPipeline:
     def __init__(self, input_dir: str, output_dir: str):
@@ -80,7 +80,17 @@ class NaLiXPipeline:
             logging.error(f"Failed {filename}: {str(e)}")
             return None
 
-    def execute(self, max_workers: int = 4) -> None:
+    def execute(self, max_workers: int = 4, stop_event: Optional[threading.Event] = None,
+                progress_callback: Optional[Callable[[str, Optional[PaperData]], None]] = None) -> None:
+        """Runs extraction over every not-yet-processed PDF and exports the results.
+
+        `stop_event` (optional): when set between files, cancels every PDF still queued and
+        stops after the ones already running finish — lets a caller (e.g. the GUI) request an
+        early stop without losing in-flight work.
+        `progress_callback` (optional): called once per PDF as soon as it finishes, as
+        `callback(filename, paper_or_none)` — `None` on failure — so a caller can show live
+        per-paper feedback instead of waiting for the whole batch to end.
+        """
         # 1. Identify which files have already been processed
         processed_files = self.get_processed_files()
 
@@ -99,9 +109,29 @@ class NaLiXPipeline:
         logging.info(f"Starting extraction for {len(new_pdfs)} new papers...")
 
         # 3. Process only the new files (spaCy/pint/pymatgen are safe to share read-only
-        # across these worker threads — see the module-level notes in extractor.py/normalizer.py)
+        # across these worker threads — see the module-level notes in extractor.py/normalizer.py).
+        # Submitted (rather than mapped) so a stop request can cancel PDFs that haven't started yet.
+        results = []
         with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-            results = [r for r in executor.map(self.process_document, new_pdfs) if r]
+            futures = {executor.submit(self.process_document, f): f for f in new_pdfs}
+            for future in concurrent.futures.as_completed(futures):
+                filename = futures[future]
+                r = future.result()
+                if r:
+                    results.append(r)
+                else:
+                    logging.warning(f"No data extracted from {filename} (parse/extraction failed).")
+                if progress_callback is not None:
+                    try:
+                        progress_callback(filename, r)
+                    except Exception as e:
+                        logging.warning(f"progress_callback raised for {filename}: {e}")
+                if stop_event is not None and stop_event.is_set():
+                    for pending in futures:
+                        pending.cancel()
+                    logging.info(f"Stop requested — cancelled remaining queued PDFs "
+                                 f"({len(results)}/{len(new_pdfs)} finished).")
+                    break
 
         # 4. Export (CSV/Excel/JSON all support incremental merge with an existing database)
         if results:

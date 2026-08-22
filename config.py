@@ -49,8 +49,18 @@ class SchemaConfig:
 
     SCHEMA: Dict[str, Dict[str, Tuple[str, str]]] = {
         "ELECTROCHEMICAL": {
-            "Activation_Energy": (rf'(?i)(?:activation energ(?:y|ies)|E\s*_?a)\b{GAP}{NUM}\s*(eV|meV|kJ/mol|kcal/mol)', 'energy'),
-            "Migration_Barrier": (rf'(?i)(?:(?:migration|hopping|diffusion) barriers?|energy barriers?)\b{GAP}{NUM}\s*(eV|meV)', 'energy'),
+            # Both properties describe the same underlying quantity (the energy barrier an ion
+            # must overcome to hop/migrate) — papers use a wide range of near-synonymous names
+            # for it, so both keyword lists are deliberately generous. exporter.py pools both
+            # properties into the dedicated activation_energy.csv/sheet.
+            "Activation_Energy": (rf'(?i)(?:(?:apparent\s+)?activation\s+energ(?:y|ies)|'
+                                   rf'(?:gibbs\s+)?free\s+energy\s+of\s+activation|activation\s+free\s+energy|'
+                                   rf'enthalpy\s+of\s+activation|activation\s+enthalpy|E\s*_?a)'
+                                   rf'\b{GAP}{NUM}\s*(eV|meV|kJ/mol|kcal/mol)', 'energy'),
+            "Migration_Barrier": (rf'(?i)(?:(?:migration|hopping|diffusion|kinetic|reaction|percolation|'
+                                   rf'intercalation|charge[- ]transfer|potential\s+energy)\s+barriers?|'
+                                   rf'energy\s+barriers?|migration\s+energ(?:y|ies)|hopping\s+energ(?:y|ies)|'
+                                   rf'desolvation\s+energ(?:y|ies))\b{GAP}{NUM}\s*(eV|meV|kJ/mol|kcal/mol)', 'energy'),
             "Diffusion_Coefficient": (rf'(?i)(?:diffusion coefficient|diffusivity|D\s*_?(?:Li|Na|K|Mg|Ca|Zn|Al|H)?)\b{GAP}{NUM}\s*(cm2/?s|cm\^?2\s*/?\s*s|m2/?s|m\^?2\s*/?\s*s)', 'diffusion'),
             "Ionic_Conductivity": (rf'(?i)(?:ionic conductivity|total conductivity|σ\s*(?:ion|total|Li|Na)?)\b{GAP}{NUM}\s*(mS/?cm|μS/?cm|uS/?cm|S/?cm)', 'conductivity'),
             "Electronic_Conductivity": (rf'(?i)electronic conductivity\b{GAP}{NUM}\s*(mS/?cm|μS/?cm|uS/?cm|S/?cm)', 'conductivity'),

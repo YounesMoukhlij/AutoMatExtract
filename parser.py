@@ -5,7 +5,7 @@ import logging
 import re
 from typing import Any, Dict, List, Optional, Tuple
 
-import fitz
+import pymupdf as fitz
 import pdfplumber
 
 from config import SchemaConfig

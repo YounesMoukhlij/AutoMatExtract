@@ -1,10 +1,13 @@
 # ocr.py
 
 import logging
+import os
+import sys
+
 import cv2
 import numpy as np
 import pytesseract
-import fitz  # PyMuPDF
+import pymupdf as fitz
 from PIL import Image
 
 from normalizer import normalize_scientific_text
@@ -12,6 +15,28 @@ from normalizer import normalize_scientific_text
 # 400 DPI (up from 300) gives small sub/superscript glyphs (e.g. "10−3", "Li+") enough pixel
 # height for Tesseract's LSTM engine to resolve, at the cost of slower rendering.
 _OCR_DPI = 400
+
+
+def _configure_tesseract_cmd() -> None:
+    """Unlike Homebrew (macOS) or apt (Linux), the official Windows Tesseract installer does not
+    reliably add tesseract.exe to PATH, so pytesseract can't find it out of the box there. Honor
+    an explicit TESSERACT_CMD env var on any platform, and fall back to Windows' default install
+    location if present. A no-op on macOS/Linux when tesseract is already on PATH."""
+    override = os.environ.get("TESSERACT_CMD")
+    if override:
+        pytesseract.pytesseract.tesseract_cmd = override
+        return
+    if sys.platform.startswith("win"):
+        for default_path in (
+            r"C:\Program Files\Tesseract-OCR\tesseract.exe",
+            r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe",
+        ):
+            if os.path.isfile(default_path):
+                pytesseract.pytesseract.tesseract_cmd = default_path
+                return
+
+
+_configure_tesseract_cmd()
 
 
 class ImagePreprocessor:

@@ -44,7 +44,7 @@ class StrictExporter:
     def _build_rows(cls, papers: List[PaperData]) -> Dict[str, List[Dict[str, Any]]]:
         tables: Dict[str, List[Dict[str, Any]]] = {
             "papers": [], "materials": [], "properties": [], "relations": [],
-            "tables": [], "figures": [], "equations": [], "workflow": [],
+            "tables": [], "figures": [], "equations": [], "workflow": [], "activation_energy": [],
         }
 
         for paper in papers:
@@ -83,6 +83,32 @@ class StrictExporter:
                             "page": c.source_page, "section": c.source_section,
                             "sentence": c.source_sentence, "source_type": c.source_type,
                         })
+
+            # Dedicated activation-energy table. Papers describe the same physical quantity (the
+            # hop/migration energy barrier for ion transport) under several names — "activation
+            # energy", "Ea", "migration barrier", "hopping barrier", "diffusion barrier", "energy
+            # barrier" — which config.py's regexes already split into two schema properties
+            # (Activation_Energy / Migration_Barrier). Pool both here so this table is the single
+            # place to look regardless of which term the paper happened to use; "matched_as"
+            # records which one it was. material_id is "NONE" only when nothing resolved this
+            # candidate to a specific material (schema section 17); material_formula relies on
+            # the same id()-based link Ranker.py uses (see ranking.py).
+            material_by_field_id = {id(r.property_value): (r.material_id, r.material_formula)
+                                     for r in paper.relations}
+            activation_energy_sources = [
+                ("Activation Energy", paper.electrochemical.get("Activation_Energy", [])),
+                ("Migration Barrier", paper.electrochemical.get("Migration_Barrier", [])),
+            ]
+            for matched_as, candidates in activation_energy_sources:
+                for c in candidates:
+                    material_id, material_formula = material_by_field_id.get(id(c), ("NONE", "NONE"))
+                    tables["activation_energy"].append({
+                        "paper_id": pid, "material_id": material_id, "material_formula": material_formula,
+                        "matched_as": matched_as,
+                        "raw_value": c.raw_value, "normalized_value": c.normalized_value, "unit": c.unit,
+                        "confidence": round(c.confidence, 3), "page": c.source_page, "section": c.source_section,
+                        "sentence": c.source_sentence, "source_type": c.source_type,
+                    })
 
             for r in paper.relations:
                 tables["relations"].append({
@@ -220,11 +246,13 @@ class StrictExporter:
     # ------------------------------------------------------------------
     @staticmethod
     def _merge_csv(path: str, new_df: pd.DataFrame) -> pd.DataFrame:
-        if not os.path.exists(path):
+        if not os.path.exists(path) or os.path.getsize(path) == 0:
             return new_df
         try:
             old_df = pd.read_csv(path)
             return StrictExporter._strict_none(pd.concat([old_df, new_df], ignore_index=True))
+        except pd.errors.EmptyDataError:
+            return new_df
         except Exception as e:
             logging.warning(f"Could not merge with existing {path}: {e}")
             return new_df
