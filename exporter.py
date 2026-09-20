@@ -3,12 +3,16 @@
 import json
 import logging
 import os
+import re
 from dataclasses import asdict
 from typing import Any, Dict, List
 
 import pandas as pd
 
 from models import ExtractedField, PaperData
+
+# Characters XML (and therefore .xlsx) cannot store.
+_ILLEGAL_XML_CHARS = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
 
 # Paper-level (not tied to a single material) categorized property dicts on PaperData.
 CATEGORY_FIELDS = [
@@ -79,7 +83,7 @@ class StrictExporter:
                             "paper_id": pid, "material_id": field_to_material.get(id(c), "NONE"),
                             "category": cat_field.upper(), "property_name": prop,
                             "raw_value": c.raw_value, "normalized_value": c.normalized_value,
-                            "unit": c.unit, "confidence": round(c.confidence, 3),
+                            "unit": c.unit, "ea_type": c.ea_type, "confidence": round(c.confidence, 3),
                             "page": c.source_page, "section": c.source_section,
                             "sentence": c.source_sentence, "source_type": c.source_type,
                         })
@@ -104,7 +108,7 @@ class StrictExporter:
                     material_id, material_formula = material_by_field_id.get(id(c), ("NONE", "NONE"))
                     tables["activation_energy"].append({
                         "paper_id": pid, "material_id": material_id, "material_formula": material_formula,
-                        "matched_as": matched_as,
+                        "matched_as": matched_as, "ea_type": c.ea_type,
                         "raw_value": c.raw_value, "normalized_value": c.normalized_value, "unit": c.unit,
                         "confidence": round(c.confidence, 3), "page": c.source_page, "section": c.source_section,
                         "sentence": c.source_sentence, "source_type": c.source_type,
@@ -115,6 +119,7 @@ class StrictExporter:
                     "paper_id": pid, "material_id": r.material_id, "material_formula": r.material_formula,
                     "category": r.category, "property_name": r.property_name,
                     "value": r.property_value.normalized_value, "unit": r.property_value.unit,
+                    "ea_type": r.property_value.ea_type,
                     "confidence": round(r.confidence, 3), "extraction_method": r.extraction_method,
                     "sentence": r.source_sentence, "page": r.source_page,
                 })
@@ -262,7 +267,11 @@ class StrictExporter:
         """Enforces the strict-NONE policy (schema section 17): never NaN/null/empty string."""
         if df.empty:
             return df
-        return df.fillna("NONE").replace("", "NONE")
+        df = df.fillna("NONE").replace("", "NONE")
+        # Control characters left over from PDF extraction make openpyxl raise IllegalCharacterError
+        # and abort the whole workbook export, so they are stripped from every text cell.
+        return df.apply(lambda col: col.map(
+            lambda v: _ILLEGAL_XML_CHARS.sub("", v) if isinstance(v, str) else v))
 
     @classmethod
     def _paper_to_nested_dict(cls, paper: PaperData) -> Dict[str, Any]:
@@ -271,6 +280,7 @@ class StrictExporter:
                 "raw_value": f.raw_value, "normalized_value": f.normalized_value, "unit": f.unit,
                 "confidence": round(f.confidence, 3), "page": f.source_page, "section": f.source_section,
                 "sentence": f.source_sentence, "source_type": f.source_type,
+                **({"ea_type": f.ea_type} if f.ea_type != "NONE" else {}),
             }
 
         return {
@@ -296,6 +306,7 @@ class StrictExporter:
                     "material_id": r.material_id, "material_formula": r.material_formula,
                     "category": r.category, "property_name": r.property_name,
                     "value": r.property_value.normalized_value, "unit": r.property_value.unit,
+                    "ea_type": r.property_value.ea_type,
                     "confidence": round(r.confidence, 3), "extraction_method": r.extraction_method,
                     "sentence": r.source_sentence, "page": r.source_page,
                 }

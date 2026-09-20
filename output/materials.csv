@@ -1,0 +1,346 @@
+﻿paper_id,material_id,raw_formula,normalized_formula,elements,is_known_alias,confidence,page,section,source_type
+Article 00.pdf,MAT_1,LiFePO4,LiFePO4,"{""Li"": 1.0, ""Fe"": 1.0, ""P"": 1.0, ""O"": 4.0}",False,0.65,1,Metadata/Header,Text
+Article 00.pdf,MAT_2,FePO4,FePO4,"{""Fe"": 1.0, ""P"": 1.0, ""O"": 4.0}",False,0.65,1,Metadata/Header,Text
+Article 00.pdf,MAT_3,Li0.5FePO4,Li0.5Fe1P1O4,"{""Li"": 0.5, ""Fe"": 1.0, ""P"": 1.0, ""O"": 4.0}",False,0.65,1,Metadata/Header,Text
+Article 10.pdf,MAT_10,BPNN,BPN2,"{""B"": 1.0, ""P"": 1.0, ""N"": 2.0}",False,0.95,11,Methods,Text
+Article 10.pdf,MAT_20,SDT,H2S,"{""S"": 1.0, ""H"": 2.0}",False,0.95,15,Results,Caption
+Article 10.pdf,MAT_2,SOH,HSO,"{""S"": 1.0, ""O"": 1.0, ""H"": 1.0}",False,0.85,2,Methods,Text
+Article 10.pdf,MAT_15,TDNN,HN,"{""H"": 2.0, ""N"": 2.0}",False,0.85,14,Results,Text
+Article 10.pdf,MAT_9,LLZO,Li7La3Zr2O12,"{""Li"": 7.0, ""La"": 3.0, ""Zr"": 2.0, ""O"": 12.0}",True,0.75,9,Methods,Text
+Article 10.pdf,MAT_11,HSW,HWS,"{""H"": 1.0, ""S"": 1.0, ""W"": 1.0}",False,0.7,13,Results,Text
+Article 10.pdf,MAT_12,FUDS,UHSF,"{""F"": 1.0, ""U"": 1.0, ""H"": 1.0, ""S"": 1.0}",False,0.7,13,Results,Text
+Article 10.pdf,MAT_13,PSO,PSO,"{""P"": 1.0, ""S"": 1.0, ""O"": 1.0}",False,0.7,14,Results,Text
+Article 10.pdf,MAT_14,BP,BP,"{""B"": 1.0, ""P"": 1.0}",False,0.7,14,Results,Text
+Article 10.pdf,MAT_16,WNN,WN2,"{""W"": 1.0, ""N"": 2.0}",False,0.7,14,Results,Text
+Article 10.pdf,MAT_17,DWT,H2W,"{""H"": 2.0, ""W"": 1.0}",False,0.7,14,Results,Text
+Article 10.pdf,MAT_18,DBN,BHN,"{""H"": 1.0, ""B"": 1.0, ""N"": 1.0}",False,0.7,14,Results,Text
+Article 10.pdf,MAT_19,KF,KF,"{""K"": 1.0, ""F"": 1.0}",False,0.7,14,Results,Text
+Article 10.pdf,MAT_21,US06,US6,"{""U"": 1.0, ""S"": 6.0}",False,0.7,15,Results,Text
+Article 10.pdf,MAT_22,FCN,CNF,"{""F"": 1.0, ""C"": 1.0, ""N"": 1.0}",False,0.7,15,Results,Text
+Article 10.pdf,MAT_1,SSEs,EsS2,"{""S"": 2.0, ""Es"": 1.0}",False,0.65,2,Introduction,Text
+Article 10.pdf,MAT_3,NN,N2,"{""N"": 2.0}",False,0.5,3,Methods,Text
+Article 10.pdf,MAT_4,LiNi0.2Mn0.2Co0.2Fe0.2Ti0.2O2,Li1Ti0.2Mn0.2Fe0.2Co0.2Ni0.2O2,"{""Li"": 1.0, ""Ni"": 0.2, ""Mn"": 0.2, ""Co"": 0.2, ""Fe"": 0.2, ""Ti"": 0.2, ""O"": 2.0}",False,0.5,5,Methods,Text
+Article 10.pdf,MAT_5,silicon,Si,{},True,0.5,5,Methods,Text
+Article 10.pdf,MAT_6,LISICON,Li14Zn(GeO4)4,"{""Li"": 14.0, ""Zn"": 1.0, ""Ge"": 4.0, ""O"": 16.0}",True,0.5,7,Methods,Text
+Article 10.pdf,MAT_8,Li3PS4,Li3PS4,"{""Li"": 3.0, ""P"": 1.0, ""S"": 4.0}",False,0.5,9,Methods,Text
+Article 10.pdf,MAT_7,ISSEs,EsS2I,"{""I"": 1.0, ""S"": 2.0, ""Es"": 1.0}",False,0.15,7,Methods,Text
+Speeding up the development of solid state electrolyte by machine learning.pdf,MAT_1,SSEs,EsS2,"{""S"": 2.0, ""Es"": 1.0}",False,0.65,1,Introduction,Text
+Speeding up the development of solid state electrolyte by machine learning.pdf,MAT_3,lithium metal,Li,"{""Li"": 1.0}",True,0.65,3,Introduction,Text
+Speeding up the development of solid state electrolyte by machine learning.pdf,MAT_2,Li3PO4,Li3PO4,"{""Li"": 3.0, ""P"": 1.0, ""O"": 4.0}",False,0.5,3,Introduction,Text
+Speeding up the development of solid state electrolyte by machine learning.pdf,MAT_4,FFNN,NF,"{""F"": 2.0, ""N"": 2.0}",False,0.5,8,Introduction,Text
+Speeding up the development of solid state electrolyte by machine learning.pdf,MAT_5,BNN,BN2,"{""B"": 1.0, ""N"": 2.0}",False,0.5,8,Introduction,Text
+Speeding up the development of solid state electrolyte by machine learning.pdf,MAT_6,NN,N2,"{""N"": 2.0}",False,0.3,10,Introduction,Text
+Speeding up the development of solid state electrolyte by machine learning.pdf,MAT_7,NB,BN,"{""N"": 1.0, ""B"": 1.0}",False,0.15,10,Introduction,Text
+Speeding up the development of solid state electrolyte by machine learning.pdf,MAT_8,DT,H2,"{""H"": 2.0}",False,0.15,10,Introduction,Text
+Speeding up the development of solid state electrolyte by machine learning.pdf,MAT_9,KNN,KN2,"{""K"": 1.0, ""N"": 2.0}",False,0.15,10,Introduction,Text
+Speeding up the development of solid state electrolyte by machine learning.pdf,MAT_10,Li7La3Zr2O12,Li7La3Zr2O12,"{""Li"": 7.0, ""La"": 3.0, ""Zr"": 2.0, ""O"": 12.0}",False,0.15,10,Introduction,Text
+Article 11.pdf,MAT_1,UK,KU,"{""U"": 1.0, ""K"": 1.0}",False,0.7,1,Abstract,Text
+Article 11.pdf,MAT_2,Al2O3,Al2O3,"{""Al"": 2.0, ""O"": 3.0}",False,0.7,3,Abstract,Text
+Article 11.pdf,MAT_3,Li10GeP2S12,Li10Ge(PS6)2,"{""Li"": 10.0, ""Ge"": 1.0, ""P"": 2.0, ""S"": 12.0}",False,0.7,3,Abstract,Text
+Article 11.pdf,MAT_4,NASICON,Na3Zr2Si2PO12,"{""Na"": 3.0, ""Zr"": 2.0, ""Si"": 2.0, ""P"": 1.0, ""O"": 12.0}",True,0.7,4,Abstract,Text
+Article 11.pdf,MAT_5,LaCl3,LaCl3,"{""La"": 1.0, ""Cl"": 3.0}",False,0.7,4,Abstract,Text
+Article 11.pdf,MAT_6,Na3PS4,Na3PS4,"{""Na"": 3.0, ""P"": 1.0, ""S"": 4.0}",False,0.7,4,Abstract,Text
+Article 11.pdf,MAT_7,UCl3,UCl3,"{""U"": 1.0, ""Cl"": 3.0}",False,0.7,4,Abstract,Text
+Article 11.pdf,MAT_8,Na3ErCl6,Na3ErCl6,"{""Na"": 3.0, ""Er"": 1.0, ""Cl"": 6.0}",False,0.7,4,Abstract,Text
+Article 11.pdf,MAT_9,Na2ZrCl6,Na2ZrCl6,"{""Na"": 2.0, ""Zr"": 1.0, ""Cl"": 6.0}",False,0.7,4,Abstract,Text
+Article 11.pdf,MAT_10,Na2.4Er0.4Zr0.6Cl6,Na2.4Er0.4Zr0.6Cl6,"{""Na"": 2.4, ""Er"": 0.4, ""Zr"": 0.6, ""Cl"": 6.0}",False,0.7,4,Abstract,Text
+Article 11.pdf,MAT_11,LLZO,Li7La3Zr2O12,"{""Li"": 7.0, ""La"": 3.0, ""Zr"": 2.0, ""O"": 12.0}",True,0.65,6,Methods,Text
+Article 11.pdf,MAT_35,Li3InCl6,Li3InCl6,"{""Li"": 3.0, ""In"": 1.0, ""Cl"": 6.0}",False,0.65,12,Methods,Text
+Article 11.pdf,MAT_12,Li3YBr6,Li3YBr6,"{""Li"": 3.0, ""Y"": 1.0, ""Br"": 6.0}",False,0.5,7,Methods,Text
+Article 11.pdf,MAT_13,Li3YCl6,Li3YCl6,"{""Li"": 3.0, ""Y"": 1.0, ""Cl"": 6.0}",False,0.5,7,Methods,Text
+Article 11.pdf,MAT_17,PO4,PO4,"{""P"": 1.0, ""O"": 4.0}",False,0.5,8,Methods,Text
+Article 11.pdf,MAT_18,SiO4,SiO4,"{""Si"": 1.0, ""O"": 4.0}",False,0.5,8,Methods,Text
+Article 11.pdf,MAT_19,Na3Sc,Na3Sc,"{""Na"": 3.0, ""Sc"": 1.0}",False,0.5,8,Methods,Text
+Article 11.pdf,MAT_20,Na2Sc,Na2Sc,"{""Na"": 2.0, ""Sc"": 1.0}",False,0.5,8,Methods,Text
+Article 11.pdf,MAT_21,Li3PS4,Li3PS4,"{""Li"": 3.0, ""P"": 1.0, ""S"": 4.0}",False,0.5,10,Methods,Text
+Article 11.pdf,MAT_36,Li3OCl,Li3ClO,"{""Li"": 3.0, ""O"": 1.0, ""Cl"": 1.0}",False,0.5,12,Methods,Text
+Article 11.pdf,MAT_37,Li2OHCl,Li2HClO,"{""Li"": 2.0, ""O"": 1.0, ""H"": 1.0, ""Cl"": 1.0}",False,0.5,12,Methods,Text
+Article 11.pdf,MAT_14,Li3Zr2Si2PO12,Li3Zr2Si2PO12,"{""Li"": 3.0, ""Zr"": 2.0, ""Si"": 2.0, ""P"": 1.0, ""O"": 12.0}",False,0.15,8,Methods,Text
+Article 11.pdf,MAT_15,Li1.3Al0.3Ti1.7(PO4)3,Li1.3Ti1.7Al0.3P3O12,"{""Li"": 1.3, ""Al"": 0.3, ""Ti"": 1.7, ""P"": 3.0, ""O"": 12.0}",False,0.15,8,Methods,Text
+Article 11.pdf,MAT_16,Li1+xAl,LiAl,"{""Li"": 1.0, ""Al"": 1.0}",False,0.15,8,Methods,Text
+Article 11.pdf,MAT_22,SO4,SO4,"{""S"": 1.0, ""O"": 4.0}",False,0.15,10,Methods,Text
+Article 11.pdf,MAT_23,LiF,LiF,"{""Li"": 1.0, ""F"": 1.0}",False,0.15,10,Methods,Text
+Article 11.pdf,MAT_24,LiCl,LiCl,"{""Li"": 1.0, ""Cl"": 1.0}",False,0.15,10,Methods,Text
+Article 11.pdf,MAT_25,LiI,LiI,"{""Li"": 1.0, ""I"": 1.0}",False,0.15,10,Methods,Text
+Article 11.pdf,MAT_26,Li2O,Li2O,"{""Li"": 2.0, ""O"": 1.0}",False,0.15,10,Methods,Text
+Article 11.pdf,MAT_27,Li2S,Li2S,"{""Li"": 2.0, ""S"": 1.0}",False,0.15,10,Methods,Text
+Article 11.pdf,MAT_28,Li3N,Li3N,"{""Li"": 3.0, ""N"": 1.0}",False,0.15,10,Methods,Text
+Article 11.pdf,MAT_29,Li3P,Li3P,"{""Li"": 3.0, ""P"": 1.0}",False,0.15,10,Methods,Text
+Article 11.pdf,MAT_30,Li3.5Ge0.25PS4,Li3.5Ge0.25P1S4,"{""Li"": 3.5, ""Ge"": 0.25, ""P"": 1.0, ""S"": 4.0}",False,0.15,10,Methods,Text
+Article 11.pdf,MAT_31,Li6PS5Cl,Li6PS5Cl,"{""Li"": 6.0, ""P"": 1.0, ""S"": 5.0, ""Cl"": 1.0}",False,0.15,10,Methods,Text
+Article 11.pdf,MAT_32,Li7P2S8I,Li7P2S8I,"{""Li"": 7.0, ""P"": 2.0, ""S"": 8.0, ""I"": 1.0}",False,0.15,10,Methods,Text
+Article 11.pdf,MAT_33,LiPON,LiPNO,"{""Li"": 1.0, ""P"": 1.0, ""O"": 1.0, ""N"": 1.0}",False,0.15,10,Methods,Text
+Article 11.pdf,MAT_34,LISICON,Li14Zn(GeO4)4,"{""Li"": 14.0, ""Zn"": 1.0, ""Ge"": 4.0, ""O"": 16.0}",True,0.15,10,Methods,Text
+Article 11.pdf,MAT_38,Li2.8In0.2Sc0.2Yb0.2Lu0.2Zr0.2Cl6,Li2.8Yb0.2Lu0.2Zr0.2Sc0.2In0.2Cl6,"{""Li"": 2.8, ""In"": 0.2, ""Sc"": 0.2, ""Yb"": 0.2, ""Lu"": 0.2, ""Zr"": 0.2, ""Cl"": 6.0}",False,0.15,13,Methods,Text
+Smart Materials Prediction- Applying Machine Learning to Lithium Solid-State Electrolyte.pdf,MAT_1,CSIC,C2SI,"{""C"": 2.0, ""S"": 1.0, ""I"": 1.0}",False,0.65,1,Metadata/Header,Text
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,MAT_4,TDOS,H2SO,"{""H"": 2.0, ""O"": 1.0, ""S"": 1.0}",False,0.9,6,Introduction,Caption
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,MAT_5,NaTi2(PO4)3,NaTi2(PO4)3,"{""Na"": 1.0, ""Ti"": 2.0, ""P"": 3.0, ""O"": 12.0}",False,0.9,6,Introduction,Caption
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,MAT_2,YbCl6,YbCl6,"{""Yb"": 1.0, ""Cl"": 6.0}",False,0.75,5,Introduction,Caption
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,MAT_8,VI,VI,"{""V"": 1.0, ""I"": 1.0}",False,0.65,13,Methods,Text
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,MAT_1,Li2OHCl,Li2HClO,"{""Li"": 2.0, ""O"": 1.0, ""H"": 1.0, ""Cl"": 1.0}",False,0.5,4,Introduction,Text
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,MAT_3,Li7P3S11,Li7P3S11,"{""Li"": 7.0, ""P"": 3.0, ""S"": 11.0}",False,0.5,6,Introduction,Text
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,MAT_7,Li10SrP2S12,SrLi10(PS6)2,"{""Li"": 10.0, ""Sr"": 1.0, ""P"": 2.0, ""S"": 12.0}",False,0.5,12,Methods,Text
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,MAT_9,HDNNP,P(HN)2,"{""H"": 2.0, ""N"": 2.0, ""P"": 1.0}",False,0.5,13,Methods,Text
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,MAT_10,Li7La3Zr2O12,Li7La3Zr2O12,"{""Li"": 7.0, ""La"": 3.0, ""Zr"": 2.0, ""O"": 12.0}",False,0.5,14,Methods,Text
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,MAT_11,Li4P2O7,Li4P2O7,"{""Li"": 4.0, ""P"": 2.0, ""O"": 7.0}",False,0.5,16,Methods,Text
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,MAT_6,LiMn2O4,LiMn2O4,"{""Li"": 1.0, ""Mn"": 2.0, ""O"": 4.0}",False,0.15,6,Introduction,Text
+Article 1.pdf,MAT_8,LGPS,Li10Ge(PS6)2,"{""Li"": 10.0, ""Ge"": 1.0, ""P"": 2.0, ""S"": 12.0}",True,0.85,2,Metadata/Header,Text
+Article 1.pdf,MAT_11,Li2S,Li2S,"{""Li"": 2.0, ""S"": 1.0}",False,0.85,3,Results,Text
+Article 1.pdf,MAT_12,Li3PS4,Li3PS4,"{""Li"": 3.0, ""P"": 1.0, ""S"": 4.0}",False,0.85,3,Results,Text
+Article 1.pdf,MAT_13,Li4GeS4,Li4GeS4,"{""Li"": 4.0, ""Ge"": 1.0, ""S"": 4.0}",False,0.85,3,Results,Text
+Article 1.pdf,MAT_14,Li7P3S11,Li7P3S11,"{""Li"": 7.0, ""P"": 3.0, ""S"": 11.0}",False,0.85,3,Results,Text
+Article 1.pdf,MAT_16,III,I,"{""I"": 3.0}",False,0.55,4,Supplementary,Text
+Article 1.pdf,MAT_1,Li7P3S113,Li7P3S113,"{""Li"": 7.0, ""P"": 3.0, ""S"": 113.0}",False,0.5,2,Metadata/Header,Text
+Article 1.pdf,MAT_2,Li10GeP2S124,Li10Ge(PS62)2,"{""Li"": 10.0, ""Ge"": 1.0, ""P"": 2.0, ""S"": 124.0}",False,0.5,2,Metadata/Header,Text
+Article 1.pdf,MAT_3,Li7Li3Zr2O125,Li10Zr2O125,"{""Li"": 10.0, ""Zr"": 2.0, ""O"": 125.0}",False,0.5,2,Metadata/Header,Text
+Article 1.pdf,MAT_4,Li1.3Al0.3Ti1.7(PO4)36,Li1.3Ti1.7Al0.3P36O144,"{""Li"": 1.3, ""Al"": 0.3, ""Ti"": 1.7, ""P"": 36.0, ""O"": 144.0}",False,0.5,2,Metadata/Header,Text
+Article 1.pdf,MAT_5,Li0.5La0.5TiO37,Li0.5La0.5Ti1O37,"{""Li"": 0.5, ""La"": 0.5, ""Ti"": 1.0, ""O"": 37.0}",False,0.5,2,Metadata/Header,Text
+Article 1.pdf,MAT_6,Li3N8,Li3N8,"{""Li"": 3.0, ""N"": 8.0}",False,0.5,2,Metadata/Header,Text
+Article 1.pdf,MAT_7,Li6PS5Cl,Li6PS5Cl,"{""Li"": 6.0, ""P"": 1.0, ""S"": 5.0, ""Cl"": 1.0}",False,0.5,2,Metadata/Header,Text
+Article 1.pdf,MAT_9,LLZO,Li7La3Zr2O12,"{""Li"": 7.0, ""La"": 3.0, ""Zr"": 2.0, ""O"": 12.0}",True,0.5,2,Metadata/Header,Text
+Article 1.pdf,MAT_10,NASICON,Na3Zr2Si2PO12,"{""Na"": 3.0, ""Zr"": 2.0, ""Si"": 2.0, ""P"": 1.0, ""O"": 12.0}",True,0.5,2,Metadata/Header,Text
+Article 1.pdf,MAT_15,VI,VI,"{""V"": 1.0, ""I"": 1.0}",False,0.4,4,Supplementary,Text
+OBELiX- A Curated Dataset of Crystal Structures and Experimentally Measured Ionic Conductivities for Lithium Solid-State Electrolytes.pdf,MAT_1,SSEs,EsS2,"{""S"": 2.0, ""Es"": 1.0}",False,0.85,1,Abstract,Text
+OBELiX- A Curated Dataset of Crystal Structures and Experimentally Measured Ionic Conductivities for Lithium Solid-State Electrolytes.pdf,MAT_2,ID,HI,"{""I"": 1.0, ""H"": 1.0}",False,0.7,3,Abstract,Text
+OBELiX- A Curated Dataset of Crystal Structures and Experimentally Measured Ionic Conductivities for Lithium Solid-State Electrolytes.pdf,MAT_3,Li7Li3Zr2O12,Li5ZrO6,"{""Li"": 10.0, ""Zr"": 2.0, ""O"": 12.0}",False,0.5,4,Introduction,Text
+OBELiX- A Curated Dataset of Crystal Structures and Experimentally Measured Ionic Conductivities for Lithium Solid-State Electrolytes.pdf,MAT_4,Li6P2O8,Li3PO4,"{""Li"": 6.0, ""P"": 2.0, ""O"": 8.0}",False,0.5,4,Introduction,Text
+OBELiX- A Curated Dataset of Crystal Structures and Experimentally Measured Ionic Conductivities for Lithium Solid-State Electrolytes.pdf,MAT_5,SO3Ne,SO3Ne,"{""S"": 1.0, ""O"": 3.0, ""Ne"": 1.0}",False,0.5,8,Discussion,Text
+Article 2.pdf,MAT_22,Li2HIO,Li2HIO,"{""Li"": 2.0, ""H"": 1.0, ""I"": 1.0, ""O"": 1.0}",False,0.7,5,Results,Text
+Article 2.pdf,MAT_6,Li6Ho(BO3)3,Li6Ho(BO3)3,"{""Li"": 6.0, ""Ho"": 1.0, ""B"": 3.0, ""O"": 9.0}",False,0.65,4,Introduction,Text
+Article 2.pdf,MAT_11,LiSbO3,LiSbO3,"{""Li"": 1.0, ""Sb"": 1.0, ""O"": 3.0}",False,0.65,4,Introduction,Text
+Article 2.pdf,MAT_21,LiSO3F,LiSO3F,"{""Li"": 1.0, ""S"": 1.0, ""O"": 3.0, ""F"": 1.0}",False,0.65,4,Introduction,Text
+Article 2.pdf,MAT_23,Li5B7S13,Li5B7S13,"{""Li"": 5.0, ""B"": 7.0, ""S"": 13.0}",False,0.55,5,Methods,Text
+Article 2.pdf,MAT_25,Li3ErCl6,Li3ErCl6,"{""Li"": 3.0, ""Er"": 1.0, ""Cl"": 6.0}",False,0.55,7,Methods,Text
+Article 2.pdf,MAT_26,Li3InCl6,Li3InCl6,"{""Li"": 3.0, ""In"": 1.0, ""Cl"": 6.0}",False,0.55,7,Methods,Text
+Article 2.pdf,MAT_27,Sr2LiCBr3N2,Sr2LiCBr3N2,"{""Sr"": 2.0, ""Li"": 1.0, ""C"": 1.0, ""Br"": 3.0, ""N"": 2.0}",False,0.55,7,Methods,Text
+Article 2.pdf,MAT_28,LiMgB3(H9N)2,LiMgB3(H9N)2,"{""Li"": 1.0, ""Mg"": 1.0, ""B"": 3.0, ""H"": 18.0, ""N"": 2.0}",False,0.55,7,Methods,Text
+Article 2.pdf,MAT_30,Li2B2S5,Li2B2S5,"{""Li"": 2.0, ""B"": 2.0, ""S"": 5.0}",False,0.55,9,Supplementary,Text
+Article 2.pdf,MAT_31,CsLi2BS3,CsLi2BS3,"{""Cs"": 1.0, ""Li"": 2.0, ""B"": 1.0, ""S"": 3.0}",False,0.55,9,Supplementary,Text
+Article 2.pdf,MAT_32,LiErSe2,LiErSe2,"{""Li"": 1.0, ""Er"": 1.0, ""Se"": 2.0}",False,0.55,9,Supplementary,Text
+Article 2.pdf,MAT_1,Li3Pr2(BO3)3,Li3Pr2(BO3)3,"{""Li"": 3.0, ""Pr"": 2.0, ""B"": 3.0, ""O"": 9.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_2,LiLa2SbO6,LiLa2SbO6,"{""Li"": 1.0, ""La"": 2.0, ""Sb"": 1.0, ""O"": 6.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_3,Li6UO6,Li6UO6,"{""Li"": 6.0, ""U"": 1.0, ""O"": 6.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_4,LiInF4,LiInF4,"{""Li"": 1.0, ""In"": 1.0, ""F"": 4.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_5,LiBiF4,LiBiF4,"{""Li"": 1.0, ""Bi"": 1.0, ""F"": 4.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_7,RbLiB4O7,RbLiB4O7,"{""Rb"": 1.0, ""Li"": 1.0, ""B"": 4.0, ""O"": 7.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_8,Li4Be3As3ClO12,Li4Be3As3ClO12,"{""Li"": 4.0, ""Be"": 3.0, ""As"": 3.0, ""Cl"": 1.0, ""O"": 12.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_9,Li6TeO6,Li6TeO6,"{""Li"": 6.0, ""Te"": 1.0, ""O"": 6.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_10,NaLiS,NaLiS,"{""Na"": 1.0, ""Li"": 1.0, ""S"": 1.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_12,LiCaGaF6,LiCaGaF6,"{""Li"": 1.0, ""Ca"": 1.0, ""Ga"": 1.0, ""F"": 6.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_13,Li2Te2O5,Li2Te2O5,"{""Li"": 2.0, ""Te"": 2.0, ""O"": 5.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_14,LiNO3,LiNO3,"{""Li"": 1.0, ""N"": 1.0, ""O"": 3.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_15,Ba4Li(SbO4)3,Ba4Li(SbO4)3,"{""Ba"": 4.0, ""Li"": 1.0, ""Sb"": 3.0, ""O"": 12.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_16,Rb2Li2SiO4,Rb2Li2SiO4,"{""Rb"": 2.0, ""Li"": 2.0, ""Si"": 1.0, ""O"": 4.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_17,NaLi2PO4,NaLi2PO4,"{""Na"": 1.0, ""Li"": 2.0, ""P"": 1.0, ""O"": 4.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_18,Cs4Li2(Si2O5)3,Cs4Li2(Si2O5)3,"{""Cs"": 4.0, ""Li"": 2.0, ""Si"": 6.0, ""O"": 15.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_19,RbLi(H2N)2,RbLi(H2N)2,"{""Rb"": 1.0, ""Li"": 1.0, ""H"": 4.0, ""N"": 2.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_20,Cs2LiTlF6,Cs2LiTlF6,"{""Cs"": 2.0, ""Li"": 1.0, ""Tl"": 1.0, ""F"": 6.0}",False,0.5,4,Introduction,Text
+Article 2.pdf,MAT_24,Li10GeP2S12,Li10Ge(PS6)2,"{""Li"": 10.0, ""Ge"": 1.0, ""P"": 2.0, ""S"": 12.0}",False,0.5,5,Methods,Text
+Article 2.pdf,MAT_33,Li7P3S11,Li7P3S11,"{""Li"": 7.0, ""P"": 3.0, ""S"": 11.0}",False,0.4,10,Supplementary,Text
+Article 2.pdf,MAT_29,DOI,HIO,"{""H"": 1.0, ""O"": 1.0, ""I"": 1.0}",False,0.15,7,Methods,Text
+Article 3.pdf,MAT_1,SSEs,EsS2,"{""S"": 2.0, ""Es"": 1.0}",False,0.5,1,Metadata/Header,Text
+Article 3.pdf,MAT_2,HTS,H2S,"{""H"": 2.0, ""S"": 1.0}",False,0.5,2,Introduction,Text
+Article 3.pdf,MAT_3,VI,VI,"{""V"": 1.0, ""I"": 1.0}",False,0.5,7,Methods,Text
+Article 3.pdf,MAT_4,LiBiO2,LiBiO2,"{""Li"": 1.0, ""Bi"": 1.0, ""O"": 2.0}",False,0.5,9,Methods,Text
+Article 3.pdf,MAT_5,Li6PS5Cl,Li6PS5Cl,"{""Li"": 6.0, ""P"": 1.0, ""S"": 5.0, ""Cl"": 1.0}",False,0.5,9,Methods,Text
+Article 3.pdf,MAT_7,Li7Ti3Pm2O12,Li7Pm2Ti3O12,"{""Li"": 7.0, ""Ti"": 3.0, ""Pm"": 2.0, ""O"": 12.0}",False,0.5,11,Methods,Text
+Article 3.pdf,MAT_8,Li2S,Li2S,"{""Li"": 2.0, ""S"": 1.0}",False,0.5,13,Methods,Text
+Article 3.pdf,MAT_6,lithium metal,Li,"{""Li"": 1.0}",True,0.15,9,Methods,Text
+Article 7.pdf,MAT_1,LiPS70,LiPS70,"{""Li"": 1.0, ""P"": 1.0, ""S"": 70.0}",False,0.85,4,Results,Text
+Article 7.pdf,MAT_2,LiPS,LiPS,"{""Li"": 1.0, ""P"": 1.0, ""S"": 1.0}",False,0.5,6,Methods,Text
+Article 7.pdf,MAT_6,NaSiS,NaSiS,"{""Na"": 1.0, ""Si"": 1.0, ""S"": 1.0}",False,0.5,6,Methods,Text
+Article 7.pdf,MAT_7,LiBP,LiBP,"{""Li"": 1.0, ""B"": 1.0, ""P"": 1.0}",False,0.5,6,Methods,Text
+Article 7.pdf,MAT_8,KINISI,KSI3N,"{""K"": 1.0, ""I"": 3.0, ""N"": 1.0, ""S"": 1.0}",False,0.5,7,Methods,Text
+Article 7.pdf,MAT_3,PS4,PS4,"{""P"": 1.0, ""S"": 4.0}",False,0.15,6,Methods,Text
+Article 7.pdf,MAT_4,P2S6,PS3,"{""P"": 2.0, ""S"": 6.0}",False,0.15,6,Methods,Text
+Article 7.pdf,MAT_5,P2S7,P2S7,"{""P"": 2.0, ""S"": 7.0}",False,0.15,6,Methods,Text
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,MAT_2,ISEs,EsSI,"{""I"": 1.0, ""S"": 1.0, ""Es"": 1.0}",False,0.7,4,Abstract,Text
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,MAT_3,FNN,N2F,"{""F"": 1.0, ""N"": 2.0}",False,0.7,6,Abstract,Text
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,MAT_1,CNPC,PC2N,"{""C"": 2.0, ""N"": 1.0, ""P"": 1.0}",False,0.65,1,Metadata/Header,Text
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,MAT_4,CNN,CN2,"{""C"": 1.0, ""N"": 2.0}",False,0.65,6,Methods,Text
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,MAT_7,DN,HN,"{""H"": 1.0, ""N"": 1.0}",False,0.65,12,Methods,Text
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,MAT_5,BP,BP,"{""B"": 1.0, ""P"": 1.0}",False,0.5,12,Methods,Text
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,MAT_6,FP,PF,"{""F"": 1.0, ""P"": 1.0}",False,0.5,12,Methods,Text
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,MAT_8,OP,PO,"{""O"": 1.0, ""P"": 1.0}",False,0.5,14,Methods,Text
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,MAT_9,NH2,H2N,"{""N"": 1.0, ""H"": 2.0}",False,0.5,14,Methods,Text
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,MAT_10,Zn(ClO4)2,Zn(ClO4)2,"{""Zn"": 1.0, ""Cl"": 2.0, ""O"": 8.0}",False,0.5,15,Methods,Text
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,MAT_11,LiFePO4,LiFePO4,"{""Li"": 1.0, ""Fe"": 1.0, ""P"": 1.0, ""O"": 4.0}",False,0.5,16,Methods,Text
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,MAT_12,LiCo,LiCo,"{""Li"": 1.0, ""Co"": 1.0}",False,0.5,20,Methods,Text
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,MAT_13,Li10GeP2S12,Li10Ge(PS6)2,"{""Li"": 10.0, ""Ge"": 1.0, ""P"": 2.0, ""S"": 12.0}",False,0.15,20,Methods,Text
+Article 6.pdf,MAT_2,SOH,HSO,"{""S"": 1.0, ""O"": 1.0, ""H"": 1.0}",False,0.7,3,Introduction,Text
+Article 6.pdf,MAT_3,SOP,PSO,"{""S"": 1.0, ""O"": 1.0, ""P"": 1.0}",False,0.7,5,Introduction,Text
+Article 6.pdf,MAT_4,CI,CI,"{""C"": 1.0, ""I"": 1.0}",False,0.7,6,Abstract,Text
+Article 6.pdf,MAT_6,P2D,P2H,"{""P"": 2.0, ""H"": 1.0}",False,0.7,22,Conclusion,Text
+Article 6.pdf,MAT_1,PINN,PIN2,"{""P"": 1.0, ""I"": 1.0, ""N"": 2.0}",False,0.5,2,Introduction,Text
+Article 6.pdf,MAT_5,LLZO,Li7La3Zr2O12,"{""Li"": 7.0, ""La"": 3.0, ""Zr"": 2.0, ""O"": 12.0}",True,0.5,9,Methods,Text
+Article 4.pdf,MAT_3,CNN,CN2,"{""C"": 1.0, ""N"": 2.0}",False,0.5,10,Introduction,Text
+Article 4.pdf,MAT_4,Li3PS4,Li3PS4,"{""Li"": 3.0, ""P"": 1.0, ""S"": 4.0}",False,0.5,11,Introduction,Text
+Article 4.pdf,MAT_5,BO,BO,"{""B"": 1.0, ""O"": 1.0}",False,0.5,15,Introduction,Text
+Article 4.pdf,MAT_1,SSEs,EsS2,"{""S"": 2.0, ""Es"": 1.0}",False,0.15,7,Introduction,Text
+Article 4.pdf,MAT_2,lithium metal,Li,"{""Li"": 1.0}",True,0.15,7,Introduction,Text
+Article 5.pdf,MAT_2,SOH,HSO,"{""S"": 1.0, ""O"": 1.0, ""H"": 1.0}",False,0.7,3,Introduction,Text
+Article 5.pdf,MAT_3,SOP,PSO,"{""S"": 1.0, ""O"": 1.0, ""P"": 1.0}",False,0.7,5,Introduction,Text
+Article 5.pdf,MAT_4,CI,CI,"{""C"": 1.0, ""I"": 1.0}",False,0.7,6,Abstract,Text
+Article 5.pdf,MAT_6,P2D,P2H,"{""P"": 2.0, ""H"": 1.0}",False,0.7,22,Conclusion,Text
+Article 5.pdf,MAT_1,PINN,PIN2,"{""P"": 1.0, ""I"": 1.0, ""N"": 2.0}",False,0.5,2,Introduction,Text
+Article 5.pdf,MAT_5,LLZO,Li7La3Zr2O12,"{""Li"": 7.0, ""La"": 3.0, ""Zr"": 2.0, ""O"": 12.0}",True,0.5,9,Methods,Text
+Article 8 2.pdf,MAT_2,LiF,LiF,"{""Li"": 1.0, ""F"": 1.0}",False,0.65,5,Metadata/Header,Text
+Article 8 2.pdf,MAT_1,SEs,EsS,"{""S"": 1.0, ""Es"": 1.0}",False,0.5,1,Metadata/Header,Text
+Article 8 2.pdf,MAT_3,BO,BO,"{""B"": 1.0, ""O"": 1.0}",False,0.5,5,Metadata/Header,Text
+Article 8 2.pdf,MAT_4,Li10GeP2S12,Li10Ge(PS6)2,"{""Li"": 10.0, ""Ge"": 1.0, ""P"": 2.0, ""S"": 12.0}",False,0.5,6,Metadata/Header,Text
+Article 8 2.pdf,MAT_5,Li3Sc2O3P12,Li3Sc2(P4O)3,"{""Li"": 3.0, ""Sc"": 2.0, ""O"": 3.0, ""P"": 12.0}",False,0.5,8,Methods,Text
+Article 8 2.pdf,MAT_6,Li3VO4,Li3VO4,"{""Li"": 3.0, ""V"": 1.0, ""O"": 4.0}",False,0.5,8,Methods,Text
+Article 8 2.pdf,MAT_7,Li2S2O7,Li2S2O7,"{""Li"": 2.0, ""S"": 2.0, ""O"": 7.0}",False,0.5,9,Methods,Text
+Article 8 2.pdf,MAT_8,Li3ErCl6,Li3ErCl6,"{""Li"": 3.0, ""Er"": 1.0, ""Cl"": 6.0}",False,0.5,10,Methods,Text
+Article 8 2.pdf,MAT_9,Li7Ti3Pm2O12,Li7Pm2Ti3O12,"{""Li"": 7.0, ""Ti"": 3.0, ""Pm"": 2.0, ""O"": 12.0}",False,0.5,10,Methods,Text
+Article 8 2.pdf,MAT_10,Li7La3Be2O12,Li7La3Be2O12,"{""Li"": 7.0, ""La"": 3.0, ""Be"": 2.0, ""O"": 12.0}",False,0.5,10,Methods,Text
+Article 8 2.pdf,MAT_12,Li7Nd3B2O12,Li7Nd3(BO6)2,"{""Li"": 7.0, ""Nd"": 3.0, ""B"": 2.0, ""O"": 12.0}",False,0.5,11,Methods,Text
+Article 8 2.pdf,MAT_13,Li7Tm3Te2O12,Li7Tm3(TeO6)2,"{""Li"": 7.0, ""Tm"": 3.0, ""Te"": 2.0, ""O"": 12.0}",False,0.5,11,Methods,Text
+Article 8 2.pdf,MAT_14,Li7Y3Ce2O12,Li7Ce2Y3O12,"{""Li"": 7.0, ""Y"": 3.0, ""Ce"": 2.0, ""O"": 12.0}",False,0.5,11,Methods,Text
+Article 8 2.pdf,MAT_15,Li7Nd3Be2O12,Li7Nd3Be2O12,"{""Li"": 7.0, ""Nd"": 3.0, ""Be"": 2.0, ""O"": 12.0}",False,0.5,11,Methods,Text
+Article 8 2.pdf,MAT_16,Li7Ti3Sm2O12,Li7Sm2Ti3O12,"{""Li"": 7.0, ""Ti"": 3.0, ""Sm"": 2.0, ""O"": 12.0}",False,0.5,11,Methods,Text
+Article 8 2.pdf,MAT_17,Li7Mg3Y2O12,Li7Y2Mg3O12,"{""Li"": 7.0, ""Mg"": 3.0, ""Y"": 2.0, ""O"": 12.0}",False,0.5,11,Methods,Text
+Article 8 2.pdf,MAT_18,Li7Ti3Nd2O12,Li7Nd2Ti3O12,"{""Li"": 7.0, ""Ti"": 3.0, ""Nd"": 2.0, ""O"": 12.0}",False,0.5,11,Methods,Text
+Article 8 2.pdf,MAT_19,Li7Ti3La2O12,Li7La2Ti3O12,"{""Li"": 7.0, ""Ti"": 3.0, ""La"": 2.0, ""O"": 12.0}",False,0.5,11,Methods,Text
+Article 8 2.pdf,MAT_20,SSW,WS2,"{""S"": 2.0, ""W"": 1.0}",False,0.5,13,Methods,Text
+Article 8 2.pdf,MAT_21,NN,N2,"{""N"": 2.0}",False,0.5,13,Methods,Text
+Article 8 2.pdf,MAT_22,Li6NBr3,Li6Br3N,"{""Li"": 6.0, ""N"": 1.0, ""Br"": 3.0}",False,0.5,14,Methods,Text
+Article 8 2.pdf,MAT_23,Li2S,Li2S,"{""Li"": 2.0, ""S"": 1.0}",False,0.5,14,Methods,Text
+Article 8 2.pdf,MAT_24,Li7PN4,Li7PN4,"{""Li"": 7.0, ""P"": 1.0, ""N"": 4.0}",False,0.5,14,Methods,Text
+Article 8 2.pdf,MAT_25,LiH2PO4,LiP(HO2)2,"{""Li"": 1.0, ""H"": 2.0, ""P"": 1.0, ""O"": 4.0}",False,0.5,17,Methods,Text
+Article 8 2.pdf,MAT_26,LiTi2(PO4)3,LiTi2(PO4)3,"{""Li"": 1.0, ""Ti"": 2.0, ""P"": 3.0, ""O"": 12.0}",False,0.5,17,Methods,Text
+Article 8 2.pdf,MAT_27,LiPO3,LiPO3,"{""Li"": 1.0, ""P"": 1.0, ""O"": 3.0}",False,0.5,17,Methods,Text
+Article 8 2.pdf,MAT_29,LCO,LiCoO2,"{""Li"": 1.0, ""Co"": 1.0, ""O"": 2.0}",True,0.5,18,Methods,Text
+Article 8 2.pdf,MAT_30,LLZO,Li7La3Zr2O12,"{""Li"": 7.0, ""La"": 3.0, ""Zr"": 2.0, ""O"": 12.0}",True,0.5,18,Methods,Text
+Article 8 2.pdf,MAT_31,PSO,PSO,"{""P"": 1.0, ""S"": 1.0, ""O"": 1.0}",False,0.5,18,Methods,Text
+Article 8 2.pdf,MAT_11,COSNe,CSONe,"{""C"": 1.0, ""O"": 1.0, ""S"": 1.0, ""Ne"": 1.0}",False,0.3,11,Methods,Text
+Article 8 2.pdf,MAT_28,DP,PH,"{""H"": 1.0, ""P"": 1.0}",False,0.3,17,Methods,Text
+Article 8 2.pdf,MAT_32,Li3PO4,Li3PO4,"{""Li"": 3.0, ""P"": 1.0, ""O"": 4.0}",False,0.15,19,Methods,Text
+Article 8 2.pdf,MAT_33,Li3PS4,Li3PS4,"{""Li"": 3.0, ""P"": 1.0, ""S"": 4.0}",False,0.15,21,Methods,Text
+Article 8.pdf,MAT_2,LiF,LiF,"{""Li"": 1.0, ""F"": 1.0}",False,0.65,5,Metadata/Header,Text
+Article 8.pdf,MAT_1,SEs,EsS,"{""S"": 1.0, ""Es"": 1.0}",False,0.5,1,Metadata/Header,Text
+Article 8.pdf,MAT_3,BO,BO,"{""B"": 1.0, ""O"": 1.0}",False,0.5,5,Metadata/Header,Text
+Article 8.pdf,MAT_4,Li10GeP2S12,Li10Ge(PS6)2,"{""Li"": 10.0, ""Ge"": 1.0, ""P"": 2.0, ""S"": 12.0}",False,0.5,6,Metadata/Header,Text
+Article 8.pdf,MAT_5,Li3Sc2O3P12,Li3Sc2(P4O)3,"{""Li"": 3.0, ""Sc"": 2.0, ""O"": 3.0, ""P"": 12.0}",False,0.5,8,Methods,Text
+Article 8.pdf,MAT_6,Li3VO4,Li3VO4,"{""Li"": 3.0, ""V"": 1.0, ""O"": 4.0}",False,0.5,8,Methods,Text
+Article 8.pdf,MAT_7,Li2S2O7,Li2S2O7,"{""Li"": 2.0, ""S"": 2.0, ""O"": 7.0}",False,0.5,9,Methods,Text
+Article 8.pdf,MAT_8,Li3ErCl6,Li3ErCl6,"{""Li"": 3.0, ""Er"": 1.0, ""Cl"": 6.0}",False,0.5,10,Methods,Text
+Article 8.pdf,MAT_9,Li7Ti3Pm2O12,Li7Pm2Ti3O12,"{""Li"": 7.0, ""Ti"": 3.0, ""Pm"": 2.0, ""O"": 12.0}",False,0.5,10,Methods,Text
+Article 8.pdf,MAT_10,Li7La3Be2O12,Li7La3Be2O12,"{""Li"": 7.0, ""La"": 3.0, ""Be"": 2.0, ""O"": 12.0}",False,0.5,10,Methods,Text
+Article 8.pdf,MAT_12,Li7Nd3B2O12,Li7Nd3(BO6)2,"{""Li"": 7.0, ""Nd"": 3.0, ""B"": 2.0, ""O"": 12.0}",False,0.5,11,Methods,Text
+Article 8.pdf,MAT_13,Li7Tm3Te2O12,Li7Tm3(TeO6)2,"{""Li"": 7.0, ""Tm"": 3.0, ""Te"": 2.0, ""O"": 12.0}",False,0.5,11,Methods,Text
+Article 8.pdf,MAT_14,Li7Y3Ce2O12,Li7Ce2Y3O12,"{""Li"": 7.0, ""Y"": 3.0, ""Ce"": 2.0, ""O"": 12.0}",False,0.5,11,Methods,Text
+Article 8.pdf,MAT_15,Li7Nd3Be2O12,Li7Nd3Be2O12,"{""Li"": 7.0, ""Nd"": 3.0, ""Be"": 2.0, ""O"": 12.0}",False,0.5,11,Methods,Text
+Article 8.pdf,MAT_16,Li7Ti3Sm2O12,Li7Sm2Ti3O12,"{""Li"": 7.0, ""Ti"": 3.0, ""Sm"": 2.0, ""O"": 12.0}",False,0.5,11,Methods,Text
+Article 8.pdf,MAT_17,Li7Mg3Y2O12,Li7Y2Mg3O12,"{""Li"": 7.0, ""Mg"": 3.0, ""Y"": 2.0, ""O"": 12.0}",False,0.5,11,Methods,Text
+Article 8.pdf,MAT_18,Li7Ti3Nd2O12,Li7Nd2Ti3O12,"{""Li"": 7.0, ""Ti"": 3.0, ""Nd"": 2.0, ""O"": 12.0}",False,0.5,11,Methods,Text
+Article 8.pdf,MAT_19,Li7Ti3La2O12,Li7La2Ti3O12,"{""Li"": 7.0, ""Ti"": 3.0, ""La"": 2.0, ""O"": 12.0}",False,0.5,11,Methods,Text
+Article 8.pdf,MAT_20,SSW,WS2,"{""S"": 2.0, ""W"": 1.0}",False,0.5,13,Methods,Text
+Article 8.pdf,MAT_21,NN,N2,"{""N"": 2.0}",False,0.5,13,Methods,Text
+Article 8.pdf,MAT_22,Li6NBr3,Li6Br3N,"{""Li"": 6.0, ""N"": 1.0, ""Br"": 3.0}",False,0.5,14,Methods,Text
+Article 8.pdf,MAT_23,Li2S,Li2S,"{""Li"": 2.0, ""S"": 1.0}",False,0.5,14,Methods,Text
+Article 8.pdf,MAT_24,Li7PN4,Li7PN4,"{""Li"": 7.0, ""P"": 1.0, ""N"": 4.0}",False,0.5,14,Methods,Text
+Article 8.pdf,MAT_25,LiH2PO4,LiP(HO2)2,"{""Li"": 1.0, ""H"": 2.0, ""P"": 1.0, ""O"": 4.0}",False,0.5,17,Methods,Text
+Article 8.pdf,MAT_26,LiTi2(PO4)3,LiTi2(PO4)3,"{""Li"": 1.0, ""Ti"": 2.0, ""P"": 3.0, ""O"": 12.0}",False,0.5,17,Methods,Text
+Article 8.pdf,MAT_27,LiPO3,LiPO3,"{""Li"": 1.0, ""P"": 1.0, ""O"": 3.0}",False,0.5,17,Methods,Text
+Article 8.pdf,MAT_29,LCO,LiCoO2,"{""Li"": 1.0, ""Co"": 1.0, ""O"": 2.0}",True,0.5,18,Methods,Text
+Article 8.pdf,MAT_30,LLZO,Li7La3Zr2O12,"{""Li"": 7.0, ""La"": 3.0, ""Zr"": 2.0, ""O"": 12.0}",True,0.5,18,Methods,Text
+Article 8.pdf,MAT_31,PSO,PSO,"{""P"": 1.0, ""S"": 1.0, ""O"": 1.0}",False,0.5,18,Methods,Text
+Article 8.pdf,MAT_11,COSNe,CSONe,"{""C"": 1.0, ""O"": 1.0, ""S"": 1.0, ""Ne"": 1.0}",False,0.3,11,Methods,Text
+Article 8.pdf,MAT_28,DP,PH,"{""H"": 1.0, ""P"": 1.0}",False,0.3,17,Methods,Text
+Article 8.pdf,MAT_32,Li3PO4,Li3PO4,"{""Li"": 3.0, ""P"": 1.0, ""O"": 4.0}",False,0.15,19,Methods,Text
+Article 8.pdf,MAT_33,Li3PS4,Li3PS4,"{""Li"": 3.0, ""P"": 1.0, ""S"": 4.0}",False,0.15,21,Methods,Text
+Article 9.pdf,MAT_9,DT,H2,"{""H"": 2.0}",False,0.85,3,Results,Text
+Article 9.pdf,MAT_10,KNN,KN2,"{""K"": 1.0, ""N"": 2.0}",False,0.85,3,Results,Text
+Article 9.pdf,MAT_1,NASICON,Na3Zr2Si2PO12,"{""Na"": 3.0, ""Zr"": 2.0, ""Si"": 2.0, ""P"": 1.0, ""O"": 12.0}",True,0.7,1,Metadata/Header,Text
+Article 9.pdf,MAT_2,SSEs,EsS2,"{""S"": 2.0, ""Es"": 1.0}",False,0.7,1,Metadata/Header,Text
+Article 9.pdf,MAT_15,Na8NVPF,Na8VPNF,"{""Na"": 8.0, ""N"": 1.0, ""V"": 1.0, ""P"": 1.0, ""F"": 1.0}",False,0.7,8,Conclusion,Text
+Article 9.pdf,MAT_3,Na3V2(PO4)2F3,Na3V2P2O8F3,"{""Na"": 3.0, ""V"": 2.0, ""P"": 2.0, ""O"": 8.0, ""F"": 3.0}",False,0.65,1,Metadata/Header,Text
+Article 9.pdf,MAT_4,DOI,HIO,"{""H"": 1.0, ""O"": 1.0, ""I"": 1.0}",False,0.65,1,Metadata/Header,Text
+Article 9.pdf,MAT_8,NVPF,VPNF,"{""N"": 1.0, ""V"": 1.0, ""P"": 1.0, ""F"": 1.0}",False,0.65,2,Metadata/Header,Text
+Article 9.pdf,MAT_6,ZrO2,ZrO2,"{""Zr"": 1.0, ""O"": 2.0}",False,0.55,2,Metadata/Header,Text
+Article 9.pdf,MAT_11,Na3.5Zr1.5Lu0.5Si2PO12,Na3.5Lu0.5Zr1.5Si2P1O12,"{""Na"": 3.5, ""Zr"": 1.5, ""Lu"": 0.5, ""Si"": 2.0, ""P"": 1.0, ""O"": 12.0}",False,0.55,5,Supplementary,Text
+Article 9.pdf,MAT_12,Na3PO4,Na3PO4,"{""Na"": 3.0, ""P"": 1.0, ""O"": 4.0}",False,0.55,5,Supplementary,Text
+Article 9.pdf,MAT_13,DSm,SmH,"{""H"": 1.0, ""Sm"": 1.0}",False,0.55,5,Supplementary,Text
+Article 9.pdf,MAT_5,NC,CN,"{""N"": 1.0, ""C"": 1.0}",False,0.5,1,Metadata/Header,Text
+Article 9.pdf,MAT_7,sodium metal,Na,"{""Na"": 1.0}",True,0.15,2,Metadata/Header,Text
+Article 9.pdf,MAT_14,DC,HC,"{""H"": 1.0, ""C"": 1.0}",False,0.05,8,Supplementary,Text
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,MAT_1,CSD,HCS,"{""C"": 1.0, ""S"": 1.0, ""H"": 1.0}",False,0.65,3,Introduction,Text
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,MAT_2,DT,H2,"{""H"": 2.0}",False,0.65,4,Introduction,Text
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,MAT_7,DNN,HN2,"{""H"": 1.0, ""N"": 2.0}",False,0.65,6,Methods,Text
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,MAT_8,NBO,BNO,"{""N"": 1.0, ""B"": 1.0, ""O"": 1.0}",False,0.65,8,Methods,Text
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,MAT_12,BO,BO,"{""B"": 1.0, ""O"": 1.0}",False,0.65,12,Methods,Text
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,MAT_3,FS,SF,"{""F"": 1.0, ""S"": 1.0}",False,0.5,5,Introduction,Text
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,MAT_4,FCC,C2F,"{""F"": 1.0, ""C"": 2.0}",False,0.5,6,Introduction,Text
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,MAT_5,SS,S,"{""S"": 2.0}",False,0.5,6,Introduction,Text
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,MAT_6,CNN,CN2,"{""C"": 1.0, ""N"": 2.0}",False,0.5,6,Methods,Text
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,MAT_9,BNN,BN2,"{""B"": 1.0, ""N"": 2.0}",False,0.5,9,Methods,Text
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,MAT_10,KNN,KN2,"{""K"": 1.0, ""N"": 2.0}",False,0.5,9,Methods,Text
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,MAT_13,NaCl,NaCl,"{""Na"": 1.0, ""Cl"": 1.0}",False,0.5,12,Methods,Text
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,MAT_14,Y2Co17,Y2Co17,"{""Y"": 2.0, ""Co"": 17.0}",False,0.5,12,Methods,Text
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,MAT_11,SVN,VSN,"{""S"": 1.0, ""V"": 1.0, ""N"": 1.0}",False,0.15,11,Methods,Text
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,MAT_2,CSP,PCS,"{""C"": 1.0, ""S"": 1.0, ""P"": 1.0}",False,0.7,1,Supplementary,Text
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,MAT_7,Li2SiS3,Li2SiS3,"{""Li"": 2.0, ""Si"": 1.0, ""S"": 3.0}",False,0.7,9,Conclusion,Text
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,MAT_8,Li2GeS3,Li2GeS3,"{""Li"": 2.0, ""Ge"": 1.0, ""S"": 3.0}",False,0.7,9,Conclusion,Text
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,MAT_9,Li4SiGeS6,Li4SiGeS6,"{""Li"": 4.0, ""Si"": 1.0, ""Ge"": 1.0, ""S"": 6.0}",False,0.7,9,Conclusion,Text
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,MAT_10,Li4SiSnS6,Li4SiSnS6,"{""Li"": 4.0, ""Si"": 1.0, ""Sn"": 1.0, ""S"": 6.0}",False,0.7,9,Conclusion,Text
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,MAT_1,SSEs,EsS2,"{""S"": 2.0, ""Es"": 1.0}",False,0.65,1,Supplementary,Text
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,MAT_3,LGPS,Li10Ge(PS6)2,"{""Li"": 10.0, ""Ge"": 1.0, ""P"": 2.0, ""S"": 12.0}",True,0.5,1,Introduction,Text
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,MAT_4,Li6PS5Cl,Li6PS5Cl,"{""Li"": 6.0, ""P"": 1.0, ""S"": 5.0, ""Cl"": 1.0}",False,0.5,1,Introduction,Text
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,MAT_5,Li7P3S11,Li7P3S11,"{""Li"": 7.0, ""P"": 3.0, ""S"": 11.0}",False,0.5,1,Introduction,Text
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,MAT_6,Li3PS4,Li3PS4,"{""Li"": 3.0, ""P"": 1.0, ""S"": 4.0}",False,0.5,1,Introduction,Text
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,MAT_12,lithium metal,Li,"{""Li"": 1.0}",True,0.5,11,Methods,Text
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,MAT_13,S5I,S5I,"{""S"": 5.0, ""I"": 1.0}",False,0.5,11,Methods,Text
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,MAT_11,Li3YCl6,Li3YCl6,"{""Li"": 3.0, ""Y"": 1.0, ""Cl"": 6.0}",False,0.2,10,Boilerplate,Text
+Article 7 2.pdf,MAT_1,LiPS70,LiPS70,"{""Li"": 1.0, ""P"": 1.0, ""S"": 70.0}",False,0.85,4,Results,Text
+Article 7 2.pdf,MAT_2,LiPS,LiPS,"{""Li"": 1.0, ""P"": 1.0, ""S"": 1.0}",False,0.5,6,Methods,Text
+Article 7 2.pdf,MAT_6,NaSiS,NaSiS,"{""Na"": 1.0, ""Si"": 1.0, ""S"": 1.0}",False,0.5,6,Methods,Text
+Article 7 2.pdf,MAT_7,LiBP,LiBP,"{""Li"": 1.0, ""B"": 1.0, ""P"": 1.0}",False,0.5,6,Methods,Text
+Article 7 2.pdf,MAT_8,KINISI,KSI3N,"{""K"": 1.0, ""I"": 3.0, ""N"": 1.0, ""S"": 1.0}",False,0.5,7,Methods,Text
+Article 7 2.pdf,MAT_3,PS4,PS4,"{""P"": 1.0, ""S"": 4.0}",False,0.15,6,Methods,Text
+Article 7 2.pdf,MAT_4,P2S6,PS3,"{""P"": 2.0, ""S"": 6.0}",False,0.15,6,Methods,Text
+Article 7 2.pdf,MAT_5,P2S7,P2S7,"{""P"": 2.0, ""S"": 7.0}",False,0.15,6,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_2,III,I,"{""I"": 3.0}",False,0.85,5,Supplementary,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_4,Li(BH)6,Li(BH)6,"{""Li"": 1.0, ""B"": 6.0, ""H"": 6.0}",False,0.85,7,Results,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_34,LiB,LiB,"{""Li"": 1.0, ""B"": 1.0}",False,0.85,7,Results,Table
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_35,PS,PS,"{""P"": 1.0, ""S"": 1.0}",False,0.85,7,Results,Table
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_5,LiBH4,LiBH4,"{""Li"": 1.0, ""B"": 1.0, ""H"": 4.0}",False,0.7,8,Results,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_6,LiI,LiI,"{""Li"": 1.0, ""I"": 1.0}",False,0.7,8,Results,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_9,FV,VF,"{""F"": 1.0, ""V"": 1.0}",False,0.65,9,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_3,Li7P3S11,Li7P3S11,"{""Li"": 7.0, ""P"": 3.0, ""S"": 11.0}",False,0.5,6,Results,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_10,Li2S–P2S5,Li2S-P2S5,"{""Li"": 2.0, ""S"": 6.0, ""P"": 2.0}",False,0.5,12,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_11,NaB3H8,NaB3H8,"{""Na"": 1.0, ""B"": 3.0, ""H"": 8.0}",False,0.5,12,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_12,Sodium Metal,Na,"{""Na"": 1.0}",True,0.5,12,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_13,FV0.5,V0.5F1,"{""F"": 1.0, ""V"": 0.5}",False,0.5,14,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_14,LiB3H8,LiB3H8,"{""Li"": 1.0, ""B"": 3.0, ""H"": 8.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_15,Li3PS4,Li3PS4,"{""Li"": 3.0, ""P"": 1.0, ""S"": 4.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_16,Li48P16S61,Li48P16S61,"{""Li"": 48.0, ""P"": 16.0, ""S"": 61.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_17,LiPaO3,LiPaO3,"{""Li"": 1.0, ""Pa"": 1.0, ""O"": 3.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_18,LiGa(GeSe3)2,LiGa(GeSe3)2,"{""Li"": 1.0, ""Ga"": 1.0, ""Ge"": 2.0, ""Se"": 6.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_19,Li3SbS3,Li3SbS3,"{""Li"": 3.0, ""Sb"": 1.0, ""S"": 3.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_20,Li3BiS3,Li3BiS3,"{""Li"": 3.0, ""Bi"": 1.0, ""S"": 3.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_21,LiUI6,LiUI6,"{""Li"": 1.0, ""U"": 1.0, ""I"": 6.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_22,Li6NCl3,Li6NCl3,"{""Li"": 6.0, ""N"": 1.0, ""Cl"": 3.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_23,Li3As7,Li3As7,"{""Li"": 3.0, ""As"": 7.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_24,Li20Si3P3S23Cl,Li20Si3P3S23Cl,"{""Li"": 20.0, ""Si"": 3.0, ""P"": 3.0, ""S"": 23.0, ""Cl"": 1.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_25,Li3P7,Li3P7,"{""Li"": 3.0, ""P"": 7.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_26,Li4GeS4,Li4GeS4,"{""Li"": 4.0, ""Ge"": 1.0, ""S"": 4.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_27,Li4Bi2S7,Li4Bi2S7,"{""Li"": 4.0, ""Bi"": 2.0, ""S"": 7.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_28,Li6PS5I,Li6PS5I,"{""Li"": 6.0, ""P"": 1.0, ""S"": 5.0, ""I"": 1.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_29,Li7PSe6,Li7PSe6,"{""Li"": 7.0, ""P"": 1.0, ""Se"": 6.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_30,Li6AsS5I,Li6AsS5I,"{""Li"": 6.0, ""As"": 1.0, ""S"": 5.0, ""I"": 1.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_31,Li7PS6,Li7PS6,"{""Li"": 7.0, ""P"": 1.0, ""S"": 6.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_32,Li4SnS4,Li4SnS4,"{""Li"": 4.0, ""Sn"": 1.0, ""S"": 4.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_33,WINDOW,HW2INO,"{""W"": 2.0, ""I"": 1.0, ""N"": 1.0, ""H"": 1.0, ""O"": 1.0}",False,0.5,15,Methods,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_7,LGPS,Li10Ge(PS6)2,"{""Li"": 10.0, ""Ge"": 1.0, ""P"": 2.0, ""S"": 12.0}",True,0.35,8,Results,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_8,Li10Ge(PSe6)2,Li10Ge(PSe6)2,"{""Li"": 10.0, ""Ge"": 1.0, ""P"": 2.0, ""Se"": 12.0}",False,0.35,8,Results,Text
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,MAT_1,SSEs,EsS2,"{""S"": 2.0, ""Es"": 1.0}",False,0.15,1,Metadata/Header,Text
+A Graph Neural Network for the Era of Large Atomistic Models.pdf,MAT_1,OFF,OF2,"{""O"": 1.0, ""F"": 2.0}",False,0.7,7,Results,Text
+A Graph Neural Network for the Era of Large Atomistic Models.pdf,MAT_2,H2O,H2O,"{""H"": 2.0, ""O"": 1.0}",False,0.7,7,Results,Text
+A Graph Neural Network for the Era of Large Atomistic Models.pdf,MAT_3,OC,CO,"{""O"": 1.0, ""C"": 1.0}",False,0.7,7,Results,Text
+A Graph Neural Network for the Era of Large Atomistic Models.pdf,MAT_4,CPS,PCS,"{""C"": 1.0, ""P"": 1.0, ""S"": 1.0}",False,0.7,9,Results,Text
+A Graph Neural Network for the Era of Large Atomistic Models.pdf,MAT_5,FT,HF,"{""F"": 1.0, ""H"": 1.0}",False,0.7,13,Results,Text
+A Graph Neural Network for the Era of Large Atomistic Models.pdf,MAT_6,CP2K88,K88P2C,"{""C"": 1.0, ""P"": 2.0, ""K"": 88.0}",False,0.5,15,Methods,Text
+A Graph Neural Network for the Era of Large Atomistic Models.pdf,MAT_7,C12H26,H13C6,"{""C"": 12.0, ""H"": 26.0}",False,0.4,25,Supplementary,Text
+A Graph Neural Network for the Era of Large Atomistic Models.pdf,MAT_8,H2O-PD,H2O-PH,"{""H"": 3.0, ""O"": 1.0, ""P"": 1.0}",False,0.4,25,Supplementary,Text
+A Graph Neural Network for the Era of Large Atomistic Models.pdf,MAT_9,HfO2,HfO2,"{""Hf"": 1.0, ""O"": 2.0}",False,0.4,25,Supplementary,Text

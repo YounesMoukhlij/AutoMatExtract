@@ -71,6 +71,11 @@ ACRONYM_BLACKLIST = {
 }
 
 
+# Letter-only, all-caps tokens ("FV", "KNN", "HDNNP", "TDOS") are acronyms far more often than
+# formulas; real all-caps binaries are whitelisted.
+_ALLCAPS_FORMULAS = {"BN", "AlN", "CO"}
+
+
 def _clean_for_validation(raw: str) -> str:
     """Strips non-stoichiometric "-x"/"+y" subscript suffixes so pymatgen can parse the rest."""
     return _NONSTOICH_SUFFIX.sub(r'\1', raw)
@@ -88,6 +93,10 @@ def _validate(formula: str) -> Optional[Composition]:
         # DummySpecies rather than raising — that would let acronym fragments like "NCA"/"LFP"
         # masquerade as valid compositions. Real materials must be built entirely of real elements.
         if any(isinstance(el, DummySpecies) for el in comp.elements):
+            return None
+        # Isotope letters (D, T) and transuranic elements (Z > 92) are never battery materials;
+        # they only appear when an acronym ("DT", "EsS2") happens to spell element symbols.
+        if any(el.symbol in ("D", "T") or el.Z > 92 for el in comp.elements):
             return None
         return comp
     except (CompositionError, ValueError, KeyError):
@@ -186,6 +195,9 @@ class ChemistryEngine:
                 "elements": elements,
                 "is_known_alias": False,
             }
+
+        if raw.isalpha() and raw.isupper() and raw not in _ALLCAPS_FORMULAS:
+            return None
 
         comp = _validate(raw)
         if not comp:

@@ -55,7 +55,8 @@ def _summarize_paper(paper: PaperData) -> str:
         if candidates:
             found_any_property = True
             best = candidates[0]
-            lines.append(f"    {prop}: {best.normalized_value} (confidence {best.confidence:.2f})")
+            ea_label = f" [{best.ea_type}]" if best.ea_type != "NONE" else ""
+            lines.append(f"    {prop}: {best.normalized_value}{ea_label} (confidence {best.confidence:.2f})")
     if not found_any_property:
         lines.append("    No headline properties (activation energy, conductivity, ...) matched.")
 

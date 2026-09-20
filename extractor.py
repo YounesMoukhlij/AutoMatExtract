@@ -7,7 +7,7 @@ from typing import Any, Dict, List, Optional, Tuple
 import spacy
 
 from chemistry import ChemistryEngine
-from config import NUM, SchemaConfig
+from config import EA_PROPERTIES, EA_TYPE_PATTERNS, NUM, SchemaConfig
 from models import EquationRecord, ExtractedField, FigureRecord, Material, Relation, TableRecord, WorkflowStep
 from normalizer import DataNormalizer
 
@@ -32,6 +32,10 @@ _EQUATION_TYPE_PATTERNS: List[Tuple[re.Pattern, str]] = [
 _WORKFLOW_STAGE_PATTERNS: List[Tuple[re.Pattern, str]] = [
     (re.compile(pattern), stage) for pattern, stage in SchemaConfig.WORKFLOW_STAGES
 ]
+_EA_TYPE_PATTERNS: List[Tuple[re.Pattern, str]] = [
+    (re.compile(pattern), label) for label, pattern in EA_TYPE_PATTERNS
+]
+_EA_HEADER_REGEX = re.compile(r'(?i)^\s*E\s*_?\s*a\b')
 _VAR_TOKEN_REGEX = re.compile(r'\b([a-zA-Zσαβγμδρω∂][a-zA-Z0-9]{0,2})\b')
 _VAR_STOPWORDS = {"the", "of", "in", "is", "at", "to", "for", "and", "or", "eq", "we"}
 
@@ -255,6 +259,30 @@ class ExtractorEngine:
                     ))
         return steps
 
+    # ------------------------------------------------------------------
+    # Activation-energy type: bulk / grain boundary / surface / total (else "unspecified")
+    # ------------------------------------------------------------------
+    @staticmethod
+    def _classify_ea_type(text: str, start: int = 0, end: int = 0) -> str:
+        """Types an Ea value from the wording around it. Every keyword hit in `text` is scored by
+        its character distance to the value span [start, end); the closest wins, so "bulk Ea of
+        0.3 eV and grain boundary Ea of 0.5 eV" types each value by its own qualifier."""
+        best_label, best_dist = "unspecified", None
+        for pattern, label in _EA_TYPE_PATTERNS:
+            for m in pattern.finditer(text):
+                dist = 0 if m.end() > start and m.start() < end else min(abs(m.end() - start), abs(m.start() - end))
+                if best_dist is None or dist < best_dist:
+                    best_label, best_dist = label, dist
+        return best_label
+
+    @classmethod
+    def _ea_type_for_sentence(cls, sent: str, start: int, end: int, section: str) -> str:
+        ea_type = cls._classify_ea_type(sent, start, end)
+        if ea_type == "unspecified":
+            # Fall back to the section heading ("Grain boundary conductivity", ...).
+            ea_type = cls._classify_ea_type(section)
+        return ea_type
+
     @classmethod
     def _process_sentence(cls, sent: str, score: float, page: str, section: str, b_type: str,
                            results: Dict[str, Any], get_or_create_material, seen_equation_types: set) -> None:
@@ -278,6 +306,10 @@ class ExtractorEngine:
                     results[cat][prop].append(field)
                     grp = match.lastindex or 0
                     start, end = (match.start(grp), match.end(grp)) if grp else (match.start(), match.end())
+                    if prop in EA_PROPERTIES:
+                        # Qualifier may precede the keyword ("bulk activation energy"), so measure
+                        # from the whole keyword+value match, not just the number.
+                        field.ea_type = cls._ea_type_for_sentence(sent, match.start(), end, section)
                     prop_matches.append((cat, prop, field, start, end))
 
         cls._scan_equation_mentions(sent, page, section, seen_equation_types, results)
@@ -316,6 +348,7 @@ class ExtractorEngine:
         header_props = {h: cls._match_header_property(h) for h in headers}
 
         for row in block.get("rows", []):
+            row_text = " ".join(str(v) for h, v in row.items() if not header_props.get(h))
             row_material = None
             if material_column != "NONE":
                 cell_materials = ChemistryEngine.find_materials(row.get(material_column, ""))
@@ -332,6 +365,12 @@ class ExtractorEngine:
                 field = cls._extract_cell_value(cell_value, header, cat, prop, page, section, block)
                 if field is None:
                     continue
+                if prop in EA_PROPERTIES:
+                    # Column header ("Ea,bulk (eV)"), row label ("Grain boundary") or caption.
+                    field.ea_type = next(
+                        (t for t in (cls._classify_ea_type(ctx) for ctx in
+                                      (header, row_text, block.get("caption", ""), section))
+                         if t != "unspecified"), "unspecified")
                 results[cat][prop].append(field)
                 if row_material is not None:
                     row_material.properties.append(field)
@@ -345,6 +384,8 @@ class ExtractorEngine:
     @staticmethod
     def _match_header_property(header: str) -> Optional[Tuple[str, str]]:
         lower = header.lower()
+        if _EA_HEADER_REGEX.match(header):
+            return "ELECTROCHEMICAL", "Activation_Energy"
         for keyword, cat, prop in _HEADER_PROPERTY_KEYWORDS:
             if keyword in lower:
                 return cat, prop
@@ -359,8 +400,9 @@ class ExtractorEngine:
             return None
         value_str, unit_str = m.group(1), (m.group(2) or "").strip()
         if not unit_str:
-            header_unit_match = _HEADER_UNIT.search(header)
-            unit_str = header_unit_match.group(1).strip() if header_unit_match else ""
+            # Last bracketed group: "Ea (GB) (eV)" has a qualifier before the unit.
+            header_units = _HEADER_UNIT.findall(header)
+            unit_str = header_units[-1].strip() if header_units else ""
         normalized = DataNormalizer.normalize((value_str, unit_str), norm_type)
         if normalized == "NONE":
             return None

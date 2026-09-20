@@ -1,0 +1,221 @@
+﻿paper_id,figure_number,caption,page,section,referenced_materials,referenced_properties,referenced_tables,referenced_equations,mentioned_methods
+Article 00.pdf,1,FIG. 1. ~Color online! ~a! Crystal structure of,2,Methods,NONE,Software,NONE,NONE,NONE
+Article 00.pdf,2,FIG. 2. ~Color online! Energy barriers of three different diffu-,3,Methods,NONE,NONE,NONE,NONE,NONE
+Article 00.pdf,2,Fig. 2~c! that the energy barriers along the c direction is,3,Methods,NONE,NONE,NONE,NONE,NONE
+Article 00.pdf,3,FIG. 3. ~Color online! The evolution of the diffusion trajectory,4,Methods,NONE,NONE,NONE,NONE,NONE
+Article 00.pdf,4,Figure 4 displays the mean square displacements ~MSD!,4,Methods,NONE,MSD_Mentioned,NONE,NONE,NONE
+Article 00.pdf,4,FIG. 4. ~Color online! Mean square displacements of the four,4,Methods,NONE,NONE,NONE,NONE,NONE
+Article 10.pdf,1,"Fig. 1   AI is applied in two aspects of solid-state batteries, material screening and performance evaluation. Solid-State Battery [41]. Copyright",3,Methods,NONE,Method,NONE,NONE,NONE
+Article 10.pdf,2,Fig. 2   a Schematic of a battery cell showing the major material components (electrodes and electrolyte) and the key material properties actively,4,Methods,NONE,NONE,NONE,NONE,NONE
+Article 10.pdf,3,Fig. 3   a Material analysis diagram combined with machine learning [60]. b The different values of the possible motifs of the lithium layer cor-,6,Methods,NONE,NONE,NONE,NONE,NONE
+Article 10.pdf,4,Fig. 4   a Schematic of the amorphous ­LixSi phase diagram constructed using ANN Potential assisted Genetic Algorithm (GA) [62].  Copyright,7,Methods,NONE,NONE,NONE,NONE,NONE
+Article 10.pdf,5,Fig. 5   a Schematic diagram of screening solid lithium-ion conductors by unsupervised learning methods [67].  Copyright 2019 Springer,8,Methods,NONE,NONE,NONE,NONE,NONE
+Article 10.pdf,6,Fig. 6   a 400 K simulation of the cubic LLZO as shown in the clustering scheme [83].  Copyright 2017 Springer Nature Limited. b According,10,Methods,Li7La3Zr2O12,Crystal_System,NONE,NONE,NONE
+Article 10.pdf,7,Fig. 7   a Model structure of backpropagation neural network (BPNN) [84]. b Model training time and test set voltage RMSE under different,14,Results,BPN2,Algorithm,NONE,NONE,NONE
+Article 10.pdf,8,"Fig. 8   a Model structure of TDNN [102]. b, c SOC estimation results and SOC errors under SDT [102]. Copyright (2020) MDPI. d Structure",15,Results,HN | H2S,SOC,NONE,NONE,NONE
+Speeding up the development of solid state electrolyte by machine learning.pdf,1,"Fig. 1. The four paradigms of science: empirical, theoretical, computational, and data driven. Adapted with the permission from Ref. [23], Copyright 2016, AIP",2,Introduction,NONE,NONE,NONE,NONE,NONE
+Speeding up the development of solid state electrolyte by machine learning.pdf,2,Fig. 2. A workflow for constructing ML models.,2,Introduction,NONE,NONE,NONE,NONE,NONE
+Speeding up the development of solid state electrolyte by machine learning.pdf,3,"Fig. 3. (A) Ionic conductivity of 72 predicted components at 373 K. [41], Copyright 2013, Wiley Online Library. (B) Computationally observed ionic conductivity in",4,Introduction,NONE,NONE,NONE,NONE,NONE
+Speeding up the development of solid state electrolyte by machine learning.pdf,4,Fig. 4. (A) Excerpt from the ternary Li–P–S phase diagram showing reported LPS compositions on and near the Li2S–P2S5 composition line. The materials falling on,5,Introduction,Li2S-P2S5,NONE,NONE,NONE,NONE
+Speeding up the development of solid state electrolyte by machine learning.pdf,5,"Fig. 5. (A) Predicted total conductivity as a function of composition. [58], Copyright 2011, American Chemical Society. (B) Total ionic conductivity of the LATP",5,Introduction,NONE,NONE,NONE,NONE,NONE
+Speeding up the development of solid state electrolyte by machine learning.pdf,6,"Fig. 6. ELN architecture diagram: summary of programming languages, front-",7,Introduction,NONE,NONE,NONE,NONE,NONE
+Speeding up the development of solid state electrolyte by machine learning.pdf,7,Fig. 7. A mind map of ML methods applied to various aspects of SSEs.,9,Introduction,EsS2,NONE,NONE,NONE,NONE
+Speeding up the development of solid state electrolyte by machine learning.pdf,8,"Fig. 8. The model of XGBoost used in XPS prediction. Reproduced with the permission from Ref. [83], Copyright 2022, American Chemical Society.",10,Introduction,NONE,Algorithm | Technique,NONE,NONE,XPS
+Speeding up the development of solid state electrolyte by machine learning.pdf,9,"Fig. 9. The workflows of (A) active learning and (B) transfer learning in materials science. Reproduced with the permission from Ref. [116], Copyright 2023,",11,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 11.pdf,1,"Fig. 1 | Components, interfaces and challenges of solid-state batteries.",2,Abstract,NONE,Method,NONE,NONE,NONE
+Article 11.pdf,2,Fig. 2 | Crystal structures and ionic conductivities,4,Abstract,NONE,Software,NONE,NONE,NONE
+Article 11.pdf,3,Fig. 3 | Methods and properties in the study of solid electrolytes and,5,Methods,NONE,NONE,NONE,NONE,NONE
+Article 11.pdf,4,Fig. 4 | Modelling of ion migration mechanisms,7,Methods,NONE,NONE,NONE,NONE,NONE
+Article 11.pdf,5,"Fig. 5 | Modelling of phase formation, stability and decomposition in solid",11,Methods,NONE,NONE,NONE,NONE,NONE
+Article 11.pdf,6,Fig. 6 | Modelling of interfaces in solid-,12,Methods,NONE,NONE,NONE,NONE,NONE
+Smart Materials Prediction- Applying Machine Learning to Lithium Solid-State Electrolyte.pdf,1,Figure 1. (A) Key steps in building a ML model. The white arrows indicate the data flow; green,3,Introduction,NONE,NONE,NONE,NONE,NONE
+Smart Materials Prediction- Applying Machine Learning to Lithium Solid-State Electrolyte.pdf,2,"Figure 2. (A) Overview of the pymatgen library. Text in italics represents names of Python packages,",5,Introduction,NONE,NONE,NONE,NONE,NONE
+Smart Materials Prediction- Applying Machine Learning to Lithium Solid-State Electrolyte.pdf,3,Figure 3. Conceive chemoinformatics as a two-part problem: encoding chemical structure as features,7,Introduction,NONE,NONE,NONE,NONE,NONE
+Smart Materials Prediction- Applying Machine Learning to Lithium Solid-State Electrolyte.pdf,4,"Figure 4. (A) Diagram of a typical artificial neural network. The black, blue and red circles indicate",11,Introduction,NONE,Algorithm,NONE,NONE,NONE
+Smart Materials Prediction- Applying Machine Learning to Lithium Solid-State Electrolyte.pdf,5,Figure 5. Schematics of the unsupervised discovery of solid-state Li-ion conductors. (a) Crystal,12,Introduction,NONE,Software | Method,NONE,NONE,NONE
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,1,Figure 1. Crystal structures of 1 × 1 × 2 supercells of (a) Trigonal phase (b) Orthorhombic phase of Li3 YbCl6.,5,Introduction,YbCl6,Crystal_System | Software,NONE,NONE,NONE
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,1,Figure 1f. These findings suggest that Li+ ions preferentially localized near nitrogen (N) and fluorine (F) atoms,5,Introduction,NONE,Atmosphere,NONE,NONE,NONE
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,2,"Figure 2. (a) Calculated total and partial density of states (TDOS, PDOS) of NaTi2(PO4)3. (b) For band gap",6,Introduction,H2SO | NaTi2(PO4)3,DOS_Mentioned | PDOS_Mentioned,NONE,NONE,NONE
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,3,"Figure 3. (a) Li−ion diffusion route in the LGPS involved of 1D, 2D diffusion and Arrhenius plots Dc, Dab along",7,Introduction,Li10Ge(PS6)2,NONE,NONE,NONE,NONE
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,4,"Figure 4. (a) Energy diagram, transition state structure, and migration route in the γ−and ꞵ-Li3PS4. The direct hopping",8,Introduction,Li3PS4,NONE,NONE,NONE,NONE
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,5,Figure 5a [165]. This model predicted the ionic conductivity with exceptional accuracy for Li- and Na-ion batteries,10,Introduction,NONE,NONE,NONE,NONE,NONE
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,5,Figure 5. (a) Comparison of the experimental and predicted ionic conductivities results of four SSE as a function of,11,Introduction,NONE,NONE,NONE,NONE,NONE
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,6,Figure 6. (a) Bottom-up diagram created through agglomerative hierarchical clustering approach. The dotted lines,13,Methods,NONE,NONE,NONE,NONE,NONE
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,6,"Figure 6c–f. By integrating atom centered symmetry functions as signifiers, HDNNP efficiently captured complex",13,Methods,P(HN)2,NONE,NONE,NONE,NONE
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,7,Figure 7. (a) Accuracy of the ideal class (left−side y−axis) labelled as stars and F1 on the (right−side y−axis),15,Methods,NONE,Accuracy,NONE,NONE,NONE
+AI-Driven Rational Design of Solid-State Electrolytes .pdf,8,Figure 8. (a) Geometrical representation of Li4P2O7 unit cell as SSE candidate. (b) Multigraph identifies the edges,16,Methods,Li4P2O7,NONE,NONE,NONE,NONE
+Article 1.pdf,1,"Fig. 1. In order to train the unsupervised model, a quantitative",2,Results,NONE,NONE,NONE,NONE,NONE
+Article 1.pdf,1,"Fig. 1 Schematics of the unsupervised discovery of solid-state Li-ion conductors. a Crystal structures of known SSLCs, showing a large diversity of structure",3,Results,NONE,Software | Method,NONE,NONE,NONE
+Article 1.pdf,2,Fig. 2 Unsupervised clustering of all Li-containing compounds. a Bottom-up tree diagram (dendrogram) generated using the agglomerative hierarchical,4,Supplementary,NONE,NONE,NONE,NONE,NONE
+Article 1.pdf,3,Fig. 3 Ion conducting properties of newly predicted versus known solid-,5,Discussion,NONE,NONE,NONE,NONE,NONE
+Article 1.pdf,14,Fig. 14. Figure 3 plots the predicted σRT and activation energy,5,Supplementary,NONE,NONE,NONE,NONE,NONE
+OBELiX- A Curated Dataset of Crystal Structures and Experimentally Measured Ionic Conductivities for Lithium Solid-State Electrolytes.pdf,1,Figure 1: Examples of solid state electrolyte mate-,4,Introduction,NONE,Method,NONE,NONE,NONE
+OBELiX- A Curated Dataset of Crystal Structures and Experimentally Measured Ionic Conductivities for Lithium Solid-State Electrolytes.pdf,2,Figure 2: a) Distributions of ionic-conductivity values for the training and testing sets along with,5,Introduction,NONE,NONE,NONE,NONE,NONE
+OBELiX- A Curated Dataset of Crystal Structures and Experimentally Measured Ionic Conductivities for Lithium Solid-State Electrolytes.pdf,3,Figure 3: Ionic conductivity of entries in the dataset that have the same composition and space group.,6,Introduction,NONE,NONE,NONE,NONE,NONE
+OBELiX- A Curated Dataset of Crystal Structures and Experimentally Measured Ionic Conductivities for Lithium Solid-State Electrolytes.pdf,4,Figure 4 and Table S1 present our benchmarking results and Figure S1 presents the corresponding,7,Discussion,NONE,NONE,NONE,NONE,NONE
+OBELiX- A Curated Dataset of Crystal Structures and Experimentally Measured Ionic Conductivities for Lithium Solid-State Electrolytes.pdf,4,Figure 4: Benchmarking of various ML models. The same data is tabulated in Table S1. Simpler,8,Discussion,NONE,NONE,NONE,NONE,NONE
+Article 2.pdf,1,Figure 1. Flowchart of high-throughput density functional theory molecular dynamics (DFT-MD) simulation process. Materials are chosen either,3,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 2.pdf,2,Figure 2. Computationally observed ionic conductivity in candidate,5,Results,NONE,NONE,NONE,NONE,NONE
+Article 2.pdf,3,Figure 3. Normalized histogram of predicted room temperature (RT),8,Methods,NONE,NONE,NONE,NONE,NONE
+Article 2.pdf,4,Figure 4. Comparison of human and machine. Here we plot the,9,Supplementary,NONE,NONE,NONE,NONE,NONE
+Article 3.pdf,1,Fig. 1. (a) Workflow of ROOST CML for predicting anti-perovskite SSE candidates. (b) Phase diagram of the Li-O-Cl system depicting the Ehull. Black spheres,3,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 3.pdf,2,"Fig. 2. (a) Active learning model predicted ESW of SSEs [45]. (b) Distribution of ESW widths for inorganic compounds of each migrating species (Li+, Na+, K+, Ca2+,",4,Introduction,EsS2,NONE,NONE,NONE,NONE
+Article 3.pdf,3,"Fig. 3. Overview of the framework to discover garnet SSEs. (a) Left panel, crystal structure of garnet materials with four element sites and space group of Ia3d. Right",5,Introduction,EsS2,Space_Group | Software,NONE,NONE,NONE
+Article 3.pdf,4,Fig. 4. Unsupervised clustering of all Li-containing compounds. (a) Bottom-up tree diagram (dendrogram) generated using the agglomerative hierarchical clustering,7,Methods,NONE,NONE,NONE,NONE,NONE
+Article 3.pdf,5,Fig. 5. (a) VIP scores of descriptors (explanatory variables) in the partial least squares model. Five different color areas correspond to five categories. The dotted line,8,Methods,VPI,NONE,NONE,NONE,NONE
+Article 3.pdf,6,"Fig. 6. (a) Phonon-ion interactions are responsible for promoting the formation of anomalous defects, thereby facilitating ion migration [71]. (b) Li ion migration",8,Methods,NONE,NONE,NONE,NONE,NONE
+Article 3.pdf,7,"Fig. 7. (a) The structure of LiGe2(PO4)3 used as a prototype to generate new virtual compounds with nonrelaxed structures, for which the total phonon band center is",9,Methods,LiGe2(PO4)3,NONE,NONE,NONE,NONE
+Article 3.pdf,8,Fig. 8. Prediction accuracy change depending on mechanical property range in the training set for predicting (a) GVRH and (b) KVRH and calculated vs. predicted plot,10,Methods,NONE,NONE,NONE,NONE,NONE
+Article 3.pdf,9,Fig. 9. Decision boundary for the 2-feature reactivity predictors and resulting expansion of the material search space. Top two panels show the spread of the training,12,Methods,NONE,NONE,NONE,NONE,NONE
+Article 3.pdf,10,"Fig. 10. SEI layer formation process between Li (001) and b-Li3PS4 (010) at 300 K and 100 bar. (a) Initial interface model, (b) ion diffusion, (c) and (d) nucleation",13,Methods,Li3PS4,NONE,NONE,NONE,NONE
+Article 7.pdf,1,"Fig. 1 | Schematic of the maximum flow method. S is the source, and T is the",2,Methods,NONE,NONE,NONE,NONE,NONE
+Article 7.pdf,2,Fig. 2 | Visual representation of the pipeline employed to proceed from the,3,Methods,NONE,NONE,NONE,NONE,NONE
+Article 7.pdf,3,Fig. 3 | Lithium and sodium diffusion in glassy electrolytes. a Structural com-,5,Results,NONE,NONE,NONE,NONE,NONE
+Article 7.pdf,4,Fig. 4 shows the extrapolated room temperature conductivity of the,5,Results,NONE,NONE,NONE,NONE,NONE
+Article 7.pdf,4,Fig. 4 | Predicting ionic conductivity from maximum flow. Calculated room,6,Discussion,NONE,NONE,NONE,NONE,NONE
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,1,"Figure 1A, research interest in electrolyte materials is rising.",2,Abstract,NONE,NONE,NONE,NONE,NONE
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,1,FIGURE 1 | Publication trends and keyword map of ML–battery electrolytes. (A) Publication trends of battery and electrolyte fields based on,2,Abstract,NONE,NONE,NONE,NONE,NONE
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,2,"Figure 2A–C, different properties of liquid and solid‐state",3,Abstract,NONE,NONE,NONE,NONE,NONE
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,2,"FIGURE 2 | Properties summary and ion transfer mechanism of liquid and solid‐state electrolytes. Radar plot of (A) Liquid electrolyte,",3,Abstract,NONE,NONE,NONE,NONE,NONE
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,3,"FIGURE 3 | Overview of ML paradigms and representative algorithms. Main ML algorithms could be divided into unsupervised, supervised, and",4,Abstract,NONE,NONE,NONE,NONE,NONE
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,4,FIGURE 4 | Schemes summary of representative ML and DL algorithms.,8,Methods,NONE,NONE,NONE,NONE,NONE
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,5,"FIGURE 5 | Classical small molecule representation method. (A) SMILES, 1D fingerprint, and 2D graph representation method of a classical",9,Methods,NONE,NONE,NONE,NONE,NONE
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,6,FIGURE 6 | Polymer and inorganic materials representation method. (A) Polymer representation based on GNN [88]. Reproduced with per­,11,Methods,NONE,Algorithm,NONE,NONE,NONE
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,7,FIGURE 7 | Properties prediction related to liquid electrolytes (A) Donor number prediction model workflow of solvent molecule [108]. Re­,13,Methods,NONE,NONE,NONE,NONE,NONE
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,8,FIGURE 8 | Knowledge discovery of liquid electrolytes. (A) CE prediction by linear model and range of feature importance [119]. Reproduced,15,Methods,NONE,NONE,NONE,NONE,NONE
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,9,FIGURE 9 | Virtual screening for electrolyte components. (A) Electrolytomics workflow for electrolytes development [128]. Reproduced with,17,Methods,NONE,NONE,NONE,NONE,NONE
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,10,FIGURE 10 | ML for SPE development. (A) Architecture of coarse‐grained molecular dynamics−Bayesian optimization (CGMD‐BO) framework [138].,19,Methods,BO,NONE,NONE,NONE,NONE
+Machine_Learning_Paradigm_for_Advanced_Battery_Ele.pdf,11,"FIGURE 11 | ML for ISE development. (A) Architecture of LiCondAI [157]. Reproduced with permission: Copyright 2025, American Chemical",21,Methods,LiCo,NONE,NONE,NONE,NONE
+Article 6.pdf,1,"Fig. 1, the framework comprises four representative scales connected by",3,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,1,"Fig. 1. ACPC framework for cross-scale LIB modeling. Bottom-up parameter carriers are generated, homogenized, reduced, or reparameterized across atomistic,",3,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,2,"Fig. 2. Cross-scale use of DFT-derived quantities. DFT tasks generate thermodynamic, kinetic, interfacial, and screening outputs that can be mapped to OCV/phase-",7,Abstract,VCO,NONE,NONE,NONE,NONE
+Article 6.pdf,3,Fig. 3. MD-derived descriptors for electrolyte transport and interfacial kinetics. (a) Solvation-state distributions linked to fast-charging transport. (Retrieved from,8,Methods,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,3,"Fig. 3a,c.",8,Methods,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,3,"Fig. 3b. For charged solid–liquid interfaces, MD is uniquely valuable",8,Methods,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,4,"Fig. 4. MLIPs workflow for generating atomistic parameter carriers. DFT/AIMD data train MLIPs through representation learning, active learning, and uncertainty",10,Methods,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,5,"Fig. 5. Recent MLIPs applications relevant to battery parameter transfer. (a, b) Iterative training and coverage improvement for a deep-learning potential of LLZO.",10,Methods,Li7La3Zr2O12,NONE,NONE,NONE,NONE
+Article 6.pdf,5,"Fig. 5a–c. In particular, Fig. 5a,b highlight how the performance of",11,Methods,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,5,Fig. 5e illustrates how MLIPs-enabled long-time-scale simulations con­,11,Methods,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,6,"Fig. 6. AI-assisted materials discovery as parameter-prior generation. Computational, experimental, and literature-derived data are encoded by graph or foundation",12,Methods,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,7,"Fig. 7a–c illustrate electrolyte-formulation search, in which differen­",12,Methods,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,7,Fig. 7. Representative AI-assisted materials-discovery routes for battery parameter-prior generation. (a-c) Electrolyte-formulation optimization through differen­,13,Methods,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,8,Fig. 8. Porous-electrode models as electrode-to-cell translation layers. (a) P2D domains and state variables. (Adapted from Moura et al. [180]); (b) Physics retained,15,Conclusion,P2H,NONE,NONE,NONE,NONE
+Article 6.pdf,9,Fig. 9. Phase-field descriptions of morphology-driven degradation. (a) Dendrite evolution and interfacial instability under coupled transport–reaction conditions; (b),15,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,9,Fig. 9 links two morphology-driven degradation pathways that are,16,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,10,"Fig. 10. Electrochemical–mechanical coupling as a degradation-carrier generator. Material and interfacial inputs produce coupled concentration, stress, reaction,",17,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,11,"Fig. 11. AI-assisted parameter identification and microstructure-to-parameter compression. Route I infers electrochemical, thermal, and aging parameters from cell-",18,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,12,"Fig. 12. Surrogate and operator-learning architectures for cell-scale modeling. (a, b) SPMe-trained deep surrogate and its use in fast-charging policy search.",19,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,13,"Fig. 13. ECM topologies for cell-to-module parameter compression. (a–d) Common RC, Thevenin, PNGV, and related time-domain ECM variants. (Adapted from",22,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,14,"Fig. 14. High-fidelity module models as spatial ground-truth generators. Cell-level heat, impedance, thermal, mechanical, and aging carriers are mapped to module-",23,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,15,Fig. 15. Physics-constrained inversion for module inconsistency diagnosis. An ECM-array forward model maps cell-parameter distributions to module measure­,24,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,16,"Fig. 16. Closed-loop module-level state estimation and life prediction. Cell-level ECM parameters, degradation descriptors, and electrochemical priors are com­",26,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,17,"Fig. 17. Health-aware control within the ACPC chain. State, health, thermal, safety, and uncertainty descriptors are converted into charging, balancing, cooling, and",27,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 6.pdf,17,Fig. 17 summarizes this role as a health-aware decision layer that con­,27,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 4.pdf,1,Fig. 1. Schematic overview of ML-driven research for LMBs.,2,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 4.pdf,1,"Fig. 1. Besides, the challenges and future perspectives of ML-driven LMB",2,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 4.pdf,2,Fig. 2. ML workflow for LMB research.,4,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 4.pdf,3,Fig. 3. (a) The schematic diagram of the ML workflow. (b) Parity plot comparing actual and predicted ln(ICE) of Li metal anodes in the training and test sets. (c),5,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 4.pdf,4,"Fig. 4. Workflow of electrolyte solvent screening for high-voltage Li metal batteries, adapted with permission from ref [48].",6,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 4.pdf,5,Fig. 5. (a) Representative crystal structures of typical solid-state lithium conductors. (b) Predicted ionic conductivities (σ373) for compositions in the Li8-cAaBbO4,8,Introduction,NONE,Software | Method,NONE,NONE,NONE
+Article 4.pdf,6,"Fig. 6. (a) Schematic illustration of the one-step thermal curing process for preparing a glass fiber-reinforced composite polymer electrolyte (CPE) using PEGDGE,",9,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 4.pdf,7,"Fig. 7a, atomistic configurations generated from nanosecond-scale",10,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 4.pdf,7,"Fig. 7. (a) Schematic of the ML workflow for XPS prediction, including descriptor construction from atomic configurations and model training using an XGBoost",10,Introduction,NONE,Algorithm | Technique,NONE,NONE,XPS
+Article 4.pdf,8,"Fig. 8. Schematic of lithium deposition under VLCD. (a) Homogeneous deposition with near-zero VLCD, (b) inhomogeneous deposition with low VLCD, and (c)",11,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 4.pdf,9,Fig. 9. Parity plots for observed and predicted cycle lives for different feature sets using the ElasticNet model. (a) Discharge-related feature subset. (b) Charge-related,13,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 4.pdf,10,"Fig. 10. (a) Pore formation and interfacial kinetics in lithium metal anodes. (b) Sample reconstruction slices of the lithium metal electrode imaged for pristine,",14,Introduction,Li,NONE,NONE,NONE,NONE
+Article 4.pdf,11,"Fig. 11. Parity plots for the initial surrogate LL-model training: (a) LUMO energy from the PubChemQC database, (b) interaction energy on the (100) surface of Li",15,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 4.pdf,12,Fig. 12. Electrolyte discovery workflow (Electrolytomics) and critical electrolyte properties. Reprinted with permission from ref [115].,17,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 4.pdf,13,Fig. 13. Schematic illustration of the challenges and enabling requirements for autonomous LMB laboratories.,17,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,1,"Fig. 1, the framework comprises four representative scales connected by",3,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,1,"Fig. 1. ACPC framework for cross-scale LIB modeling. Bottom-up parameter carriers are generated, homogenized, reduced, or reparameterized across atomistic,",3,Introduction,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,2,"Fig. 2. Cross-scale use of DFT-derived quantities. DFT tasks generate thermodynamic, kinetic, interfacial, and screening outputs that can be mapped to OCV/phase-",7,Abstract,VCO,NONE,NONE,NONE,NONE
+Article 5.pdf,3,Fig. 3. MD-derived descriptors for electrolyte transport and interfacial kinetics. (a) Solvation-state distributions linked to fast-charging transport. (Retrieved from,8,Methods,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,3,"Fig. 3a,c.",8,Methods,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,3,"Fig. 3b. For charged solid–liquid interfaces, MD is uniquely valuable",8,Methods,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,4,"Fig. 4. MLIPs workflow for generating atomistic parameter carriers. DFT/AIMD data train MLIPs through representation learning, active learning, and uncertainty",10,Methods,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,5,"Fig. 5. Recent MLIPs applications relevant to battery parameter transfer. (a, b) Iterative training and coverage improvement for a deep-learning potential of LLZO.",10,Methods,Li7La3Zr2O12,NONE,NONE,NONE,NONE
+Article 5.pdf,5,"Fig. 5a–c. In particular, Fig. 5a,b highlight how the performance of",11,Methods,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,5,Fig. 5e illustrates how MLIPs-enabled long-time-scale simulations con­,11,Methods,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,6,"Fig. 6. AI-assisted materials discovery as parameter-prior generation. Computational, experimental, and literature-derived data are encoded by graph or foundation",12,Methods,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,7,"Fig. 7a–c illustrate electrolyte-formulation search, in which differen­",12,Methods,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,7,Fig. 7. Representative AI-assisted materials-discovery routes for battery parameter-prior generation. (a-c) Electrolyte-formulation optimization through differen­,13,Methods,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,8,Fig. 8. Porous-electrode models as electrode-to-cell translation layers. (a) P2D domains and state variables. (Adapted from Moura et al. [180]); (b) Physics retained,15,Conclusion,P2H,NONE,NONE,NONE,NONE
+Article 5.pdf,9,Fig. 9. Phase-field descriptions of morphology-driven degradation. (a) Dendrite evolution and interfacial instability under coupled transport–reaction conditions; (b),15,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,9,Fig. 9 links two morphology-driven degradation pathways that are,16,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,10,"Fig. 10. Electrochemical–mechanical coupling as a degradation-carrier generator. Material and interfacial inputs produce coupled concentration, stress, reaction,",17,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,11,"Fig. 11. AI-assisted parameter identification and microstructure-to-parameter compression. Route I infers electrochemical, thermal, and aging parameters from cell-",18,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,12,"Fig. 12. Surrogate and operator-learning architectures for cell-scale modeling. (a, b) SPMe-trained deep surrogate and its use in fast-charging policy search.",19,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,13,"Fig. 13. ECM topologies for cell-to-module parameter compression. (a–d) Common RC, Thevenin, PNGV, and related time-domain ECM variants. (Adapted from",22,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,14,"Fig. 14. High-fidelity module models as spatial ground-truth generators. Cell-level heat, impedance, thermal, mechanical, and aging carriers are mapped to module-",23,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,15,Fig. 15. Physics-constrained inversion for module inconsistency diagnosis. An ECM-array forward model maps cell-parameter distributions to module measure­,24,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,16,"Fig. 16. Closed-loop module-level state estimation and life prediction. Cell-level ECM parameters, degradation descriptors, and electrochemical priors are com­",26,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,17,"Fig. 17. Health-aware control within the ACPC chain. State, health, thermal, safety, and uncertainty descriptors are converted into charging, balancing, cooling, and",27,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 5.pdf,17,Fig. 17 summarizes this role as a health-aware decision layer that con­,27,Conclusion,NONE,NONE,NONE,NONE,NONE
+Article 8 2.pdf,1,"Fig. 1. Key scientific goals and challenges for SE and SEI/CEI design. The factors that have to be considered for the SE design are demonstrated, including ionic-­",2,Metadata/Header,NONE,NONE,NONE,NONE,NONE
+Article 8 2.pdf,2,"Fig. 2. Overview of the review. First, three AI strategies for the SSB research are summarized. Next, advances in discovery of high-­performance SEs with high ionic con-",3,Metadata/Header,BS2 | EsS,NONE,NONE,NONE,NONE
+Article 8 2.pdf,3,"Fig. 3. Strategies for SE and interface design. (A) Traditional approach to SE, including experimental and theoretical processes. Solid polylines denote the feedback of",4,Metadata/Header,NONE,NONE,NONE,NONE,NONE
+Article 8 2.pdf,4,Fig. 4. Mainstream methods for discovering fast-­ion conductors. (A) Data-­driven classification model using an LR algorithm for predicting ionic conductivity (88). El-,8,Methods,NONE,NONE,NONE,NONE,NONE
+Article 8 2.pdf,5,"Fig. 5. Discovery of fast-­ion conductors using microstructures, x-­ray diffraction, and machine learning interatomic potentials. (A) Microstructure-­property rela-",9,Methods,NONE,NONE,NONE,NONE,NONE
+Article 8 2.pdf,6,Fig. 6. Screening SEs with high mechanical strength and stability via ML methods. (A) Flowchart of the ML process to predict elastic properties (bulk modulus KVRH,11,Methods,EsS,NONE,NONE,NONE,NONE
+Article 8 2.pdf,7,Fig. 7. SEI investigation by combining AIMD simulations and ML methods. (A) Workflow of LASP (144): LASP takes input setups (lasp.in) and structure coordinates,13,Methods,NONE,NONE,NONE,NONE,NONE
+Article 8 2.pdf,8,Fig. 8. Predicting SEI properties by using ML methods. (A) Scheme of XPS prediction using ML models (135). The features of the structure can be generated using local,15,Methods,NONE,Technique,NONE,NONE,XPS
+Article 8 2.pdf,9,"Fig. 9. Approaches for screening coating materials for cathodes. (A) Flowchart describing the computational screening of cathode coating materials, following the",17,Methods,NONE,NONE,NONE,NONE,NONE
+Article 8 2.pdf,10,Fig. 10. AI-­assisted modeling for CEI investigation. (A) Flowchart for the prediction scheme of heterogeneous interface structures using the CALYPSO methodology,18,Methods,NONE,NONE,NONE,NONE,NONE
+Article 8.pdf,1,"Fig. 1. Key scientific goals and challenges for SE and SEI/CEI design. The factors that have to be considered for the SE design are demonstrated, including ionic-­",2,Metadata/Header,NONE,NONE,NONE,NONE,NONE
+Article 8.pdf,2,"Fig. 2. Overview of the review. First, three AI strategies for the SSB research are summarized. Next, advances in discovery of high-­performance SEs with high ionic con-",3,Metadata/Header,BS2 | EsS,NONE,NONE,NONE,NONE
+Article 8.pdf,3,"Fig. 3. Strategies for SE and interface design. (A) Traditional approach to SE, including experimental and theoretical processes. Solid polylines denote the feedback of",4,Metadata/Header,NONE,NONE,NONE,NONE,NONE
+Article 8.pdf,4,Fig. 4. Mainstream methods for discovering fast-­ion conductors. (A) Data-­driven classification model using an LR algorithm for predicting ionic conductivity (88). El-,8,Methods,NONE,NONE,NONE,NONE,NONE
+Article 8.pdf,5,"Fig. 5. Discovery of fast-­ion conductors using microstructures, x-­ray diffraction, and machine learning interatomic potentials. (A) Microstructure-­property rela-",9,Methods,NONE,NONE,NONE,NONE,NONE
+Article 8.pdf,6,Fig. 6. Screening SEs with high mechanical strength and stability via ML methods. (A) Flowchart of the ML process to predict elastic properties (bulk modulus KVRH,11,Methods,EsS,NONE,NONE,NONE,NONE
+Article 8.pdf,7,Fig. 7. SEI investigation by combining AIMD simulations and ML methods. (A) Workflow of LASP (144): LASP takes input setups (lasp.in) and structure coordinates,13,Methods,NONE,NONE,NONE,NONE,NONE
+Article 8.pdf,8,Fig. 8. Predicting SEI properties by using ML methods. (A) Scheme of XPS prediction using ML models (135). The features of the structure can be generated using local,15,Methods,NONE,Technique,NONE,NONE,XPS
+Article 8.pdf,9,"Fig. 9. Approaches for screening coating materials for cathodes. (A) Flowchart describing the computational screening of cathode coating materials, following the",17,Methods,NONE,NONE,NONE,NONE,NONE
+Article 8.pdf,10,Fig. 10. AI-­assisted modeling for CEI investigation. (A) Flowchart for the prediction scheme of heterogeneous interface structures using the CALYPSO methodology,18,Methods,NONE,NONE,NONE,NONE,NONE
+Article 9.pdf,1,Fig. 1,3,Results,NONE,NONE,NONE,NONE,NONE
+Article 9.pdf,2,Fig. 2,3,Results,NONE,NONE,NONE,NONE,NONE
+Article 9.pdf,3,Fig. 3,4,Results,NONE,NONE,NONE,NONE,NONE
+Article 9.pdf,4,Fig. 4,5,Supplementary,NONE,NONE,NONE,NONE,NONE
+Article 9.pdf,5,"Fig. 5a and b, the medium-entropy compositions ME1-NZSP",6,Supplementary,NONE,NONE,NONE,NONE,NONE
+Article 9.pdf,5,Fig. 5,6,Supplementary,NONE,NONE,NONE,NONE,NONE
+Article 9.pdf,6,Fig. 6,7,Supplementary,NONE,NONE,NONE,NONE,NONE
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,1,"Fig. 1. Applications of multi-scale computation methods at microscale, mesoscale, and macroscale, in rechargeable battery materials.",2,Introduction,NONE,NONE,NONE,NONE,NONE
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,2,Fig. 2. Literature counts from 2011 to 2019. The information is obtained by searching on the “Web of Science” database using “high throughput” þ “materials” and,3,Introduction,NONE,NONE,NONE,NONE,NONE
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,3,Fig. 3. The relationships among ML and current hot topics in computer science [61].,4,Introduction,NONE,NONE,NONE,NONE,NONE
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,4,"Fig. 4. Workflow of the application of ML in rechargeable battery materials, which includes four major steps: data collection, feature engineering, model building, and",5,Introduction,NONE,NONE,NONE,NONE,NONE
+Machine learning assisted materials design and discovery for rechargeable batteries.pdf,5,Fig. 5. Taxonomy of the literature for ML in rechargeable battery materials. Related methods and literatures for each performance prediction are marked.,7,Methods,NONE,NONE,NONE,NONE,NONE
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,1,Figure 1. Workflow of CSP with MTP and active learning. The,3,Methods,PCS,NONE,NONE,NONE,NONE
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,2,Figure 2. (a) Energy difference (ΔE) between most stable predicted,4,Methods,NONE,NONE,NONE,NONE,NONE
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,3,"Figure 3. (a) Classification of predicted crystal structures based on polyhedral connectivity: corner-sharing (left, blue), edge-sharing (middle,",5,Supplementary,NONE,Software,NONE,NONE,NONE
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,3,"Figures 3b−e shows the relative stabilities, polyhedral",5,Supplementary,NONE,NONE,NONE,NONE,NONE
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,4,Figure 4. Isosurface of Li-ion probability density distribution and self-part of van Hove correlation function for different polyhedral topologies in,6,Supplementary,NONE,NONE,NONE,NONE,NONE
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,3,"Figure 3d,e highlight the exceptional Li-ion transport",7,Methods,NONE,NONE,NONE,NONE,NONE
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,4,"Figure 4a,b show the isosurfaces (red) of the Li-ion probability",7,Methods,NONE,NONE,NONE,NONE,NONE
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,4,Figure 4e demonstrates that the edge-sharing topology,7,Methods,NONE,NONE,NONE,NONE,NONE
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,4,Figure 4a and the experimentally observed extremely low ionic,8,Supplementary,NONE,NONE,NONE,NONE,NONE
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,5,"Figure 5 presents the packing ratio (α), Li−S4 sublattice",8,Supplementary,NONE,NONE,NONE,NONE,NONE
+Machine Learning-Assisted Crystal Structure Prediction of SolidState Electrolytes Reveals Superior Ionic Conductivity in Metastable Edge-Sharing Phases.pdf,5,Figure 5. Analysis of 10 most stable predicted structures for (a),8,Supplementary,NONE,NONE,NONE,NONE,NONE
+Article 7 2.pdf,1,"Fig. 1 | Schematic of the maximum flow method. S is the source, and T is the",2,Methods,NONE,NONE,NONE,NONE,NONE
+Article 7 2.pdf,2,Fig. 2 | Visual representation of the pipeline employed to proceed from the,3,Methods,NONE,NONE,NONE,NONE,NONE
+Article 7 2.pdf,3,Fig. 3 | Lithium and sodium diffusion in glassy electrolytes. a Structural com-,5,Results,NONE,NONE,NONE,NONE,NONE
+Article 7 2.pdf,4,Fig. 4 shows the extrapolated room temperature conductivity of the,5,Results,NONE,NONE,NONE,NONE,NONE
+Article 7 2.pdf,4,Fig. 4 | Predicting ionic conductivity from maximum flow. Calculated room,6,Discussion,NONE,NONE,NONE,NONE,NONE
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,1,FIG. 1. Flowchart of the logical steps performed in our study,3,Methods,NONE,NONE,NONE,NONE,NONE
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,2,Fig. 2 shows the LM(⃗r) = 0.5 eV isosurfaces on top of,4,Methods,NONE,NONE,NONE,NONE,NONE
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,2,FIG. 2.,4,Methods,NONE,NONE,NONE,NONE,NONE
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,3,FIG. 3.,5,Methods,NONE,NONE,NONE,NONE,NONE
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,4,FIG. 4. AIMD conductivity values against 1/T for the top-Ξ,6,Results,NONE,NONE,NONE,NONE,NONE
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,5,FIG. 5.,13,Methods,NONE,NONE,NONE,NONE,NONE
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,7,Figures 7 and 8 demonstrate scatter plots with rela-,13,Methods,NONE,NONE,NONE,NONE,NONE
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,7,FIG. 7. Distributions of conductivity labels against FV descriptors for the simulated dataset. Shown are such distributions,14,Methods,VF,NONE,NONE,NONE,NONE
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,8,FIG. 8. Distributions of conductivity and activation energy labels against FV descriptors for the experimental dataset. Shown,14,Methods,VF,NONE,NONE,NONE,NONE
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,3,Fig. 3.,15,Methods,NONE,NONE,NONE,NONE,NONE
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,9,FIG. 9.,15,Methods,NONE,NONE,NONE,NONE,NONE
+Predicting ionic conductivity in solids from the machine-learned potential energy landscape.pdf,10,FIG. 10. MSD slope values extracted with different fitting window parameters. The results of single fits for the entire simulated,16,Methods,NONE,MSD_Mentioned,NONE,NONE,NONE
+A Graph Neural Network for the Era of Large Atomistic Models.pdf,1,Figure 1. Schematic plot of the DPA3 model architecture. (a) The line graph transform. (b) The line,4,Results,NONE,NONE,NONE,NONE,NONE
+A Graph Neural Network for the Era of Large Atomistic Models.pdf,2,Figure 2. Comparative performance of DPA3 with other MLIPs across different benchmarks. (a) Test,7,Results,NONE,NONE,NONE,NONE,NONE
+A Graph Neural Network for the Era of Large Atomistic Models.pdf,3,Figure 3. LWARMSEs in energy and force predictions evaluated on the DPA2 test sets. The DPA3,10,Results,NONE,NONE,NONE,NONE,NONE
+A Graph Neural Network for the Era of Large Atomistic Models.pdf,4,Figure 4. Scaling law of the DPA3 models. All evaluations are conducted by measuring validation energy,10,Results,NONE,NONE,NONE,NONE,NONE
+A Graph Neural Network for the Era of Large Atomistic Models.pdf,4,Fig. 4(a–c). The results clearly demonstrate that the validation energy MAE decreases with increasing,11,Results,NONE,NONE,NONE,NONE,NONE
+A Graph Neural Network for the Era of Large Atomistic Models.pdf,5,Figure 5. Zero-shot generalizability evaluation of force field prediction tasks across three distinct,11,Results,NONE,NONE,NONE,NONE,NONE
+A Graph Neural Network for the Era of Large Atomistic Models.pdf,5,Figure 5 and Table S-6 present a comparative analysis of the zero-shot generalizability of the DPA-3.1-,12,Results,NONE,NONE,NONE,NONE,NONE
+A Graph Neural Network for the Era of Large Atomistic Models.pdf,6,"Figure 6. Graphic illustration of line graph transform. (a) The initial graph, denoted as G, is depicted in",16,Methods,NONE,NONE,NONE,NONE,NONE

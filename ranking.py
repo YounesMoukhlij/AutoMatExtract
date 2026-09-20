@@ -79,13 +79,18 @@ class Ranker:
         ranked = sorted(candidates, key=lambda x: x.confidence, reverse=True)
         seen: Set[str] = set()
         unique: List[ExtractedField] = []
+        kept_per_type: Dict[str, int] = {}
         for c in ranked:
-            if c.normalized_value in seen:
+            key = f"{c.normalized_value}|{c.ea_type}"  # same Ea value of a different type is not a duplicate
+            if key in seen:
                 continue
-            seen.add(c.normalized_value)
+            # Top-K is applied per activation-energy type ("NONE" for every other property), so
+            # a paper's bulk / grain-boundary / surface / total values don't crowd each other out.
+            if kept_per_type.get(c.ea_type, 0) >= TOP_K:
+                continue
+            seen.add(key)
             unique.append(c)
-            if len(unique) >= TOP_K:
-                break
+            kept_per_type[c.ea_type] = kept_per_type.get(c.ea_type, 0) + 1
         return unique
 
     @staticmethod

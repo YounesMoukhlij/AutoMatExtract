@@ -6,7 +6,10 @@ from typing import Dict, List, Pattern, Tuple
 # Generic numeric fragment: plain decimals, python-style scientific notation ("1.2e-3"),
 # and "coefficient x 10^exponent" scientific notation ("1.2x10^-3", "1.2×10−3"), including
 # the unicode minus sign (U+2212) commonly produced by PDF text extraction.
-NUM = r'([-−]?\d+(?:\.\d+)?(?:\s*(?:[eE][-−+]?\d+|[xX×\*]\s*10\^?[-−]?\d+))?)'
+# The lookbehind stops a match starting inside a longer number or right after "±" (so "216±31 meV"
+# yields 216, not the uncertainty 31); an optional trailing "±err" is consumed and ignored.
+NUM = (r'(?<![\d.±])([-−]?\d+(?:\.\d+)?(?:\s*(?:[eE][-−+]?\d+|[xX×\*]\s*10\^?[-−]?\d+))?)'
+       r'(?:\s*(?:±|\+/-|\+-)\s*\d+(?:\.\d+)?)?')
 
 # Bounded, non-greedy "skip up to N characters" used between a keyword and its value. Digits
 # are deliberately NOT excluded — a chemical formula routinely sits between the keyword and the
@@ -14,6 +17,17 @@ NUM = r'([-−]?\d+(?:\.\d+)?(?:\s*(?:[eE][-−+]?\d+|[xX×\*]\s*10\^?[-−]?\d+
 # Non-greedy backtracking still prefers the closest number+unit match, since every shorter
 # candidate gap is tried first and only advances when the unit fails to match right after it.
 GAP = r'.{0,80}?'
+
+
+# Activation-energy (Ea) types, checked per keyword hit by proximity to the extracted value.
+# Order only breaks ties. "unspecified" is used when the text names none of them.
+EA_PROPERTIES = ("Activation_Energy", "Migration_Barrier")
+EA_TYPE_PATTERNS: List[Tuple[str, str]] = [
+    ("grain boundary", r'(?i)grain[\s-]*boundar(?:y|ies)|inter-?granular|\bGBs?\b|\bE\s*_?\s*a\s*[,_(\[]\s*gb\b'),
+    ("surface", r'(?i)\bsurfaces?\b|\bsurfacic\b|\bE\s*_?\s*a\s*[,_(\[]\s*(?:s|surf|surface)\b'),
+    ("bulk", r'(?i)\bbulk\b|\bintra-?granular|\bgrain\s+interior|\bE\s*_?\s*a\s*[,_(\[]\s*(?:b|bulk|g|grain)\b'),
+    ("total", r'(?i)\btotal\b|\boverall\b|\bE\s*_?\s*a\s*[,_(\[]\s*(?:t|tot|total)\b'),
+]
 
 
 class SchemaConfig:

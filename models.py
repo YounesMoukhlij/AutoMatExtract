@@ -24,6 +24,9 @@ class ExtractedField:
     value_numeric: Optional[float] = None
     category: str = "NONE"
     property_name: str = "NONE"
+    # Only set for Activation_Energy / Migration_Barrier: "bulk", "grain boundary", "surface",
+    # "total" or "unspecified" (see ExtractorEngine._classify_ea_type). "NONE" for every other property.
+    ea_type: str = "NONE"
 
     @classmethod
     def empty(cls) -> "ExtractedField":
@@ -42,6 +45,7 @@ class ExtractedField:
             f"{prefix}_Page": self.source_page,
             f"{prefix}_Section": self.source_section,
             f"{prefix}_SourceType": self.source_type,
+            **({f"{prefix}_Type": self.ea_type} if self.ea_type != "NONE" else {}),
         }
 
 
