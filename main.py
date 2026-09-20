@@ -2,7 +2,7 @@
 """CLI entry point for AutoMatExtract.
 
 Usage:
-	author : Younes Moukhlij
+	author - Younes Moukhlij
 	python main.py
 	python main.py --input papers --output output --workers 4
 	python main.py --input /path/to/pdfs --output /path/to/database -v
